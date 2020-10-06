@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; World News</title>
+    <link>https://www.nytimes.com/section/world?emc=rss&amp;partner=rss</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2019 The New York Times Company</copyright>
+    <lastBuildDate>Wed, 04 Dec 2019 11:57:49 +0000</lastBuildDate>
+    <image>
+      <title>NYT &gt; World News</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/world?emc=rss&amp;partner=rss</link>
+    </image>
+    <item>
+      <title>Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions</title>
+      <link>https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The prelude to the gathering of alliance country leaders was punctuated by testy exchanges between President Emmanuel Macron of France and President Trump.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 11:29:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macron, Emmanuel (1977- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pompeo, Mike</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/04/world/04nato-live-briefing3/04nato-live-briefing3-moth.jpg" width="151"></media:content>
+      <media:credit>Chris J Ratcliffe/Getty Images</media:credit>
+      <media:description>Jens Stoltenberg, the NATO secretary general of NATO, on Wednesday called the grouping “the most effective alliance in history.”</media:description>
+    </item>
+    <item>
+      <title>For Trump and Europe, a Surprising Role Reversal</title>
+      <link>https://www.nytimes.com/2019/12/03/world/europe/trump-macron-nato.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/europe/trump-macron-nato.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/europe/trump-macron-nato.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Where the president once kept European leaders off balance, Europe’s shifting landscape now has the Great Disrupter scrambling to recalibrate his approach.</description>
+      <dc:creator>Mark Landler</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 11:54:30 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Boris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macron, Emmanuel (1977- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Merkel, Angela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/world/03uk-trump-alt/03uk-trump-alt-moth.jpg" width="151"></media:content>
+      <media:credit>Al Drago for The New York Times</media:credit>
+      <media:description>President Trump met with President Emmanuel Macron of France in London on Tuesday.</media:description>
+    </item>
+    <item>
+      <title>In Video, World Leaders Seem to Be Commiserating About Trump</title>
+      <link>https://www.nytimes.com/2019/12/04/world/europe/trump-video-nato.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/world/europe/trump-video-nato.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/world/europe/trump-video-nato.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The leaders of Canada, France and Britain did not appear to realize that their conversation at a Buckingham Palace reception was being recorded.</description>
+      <dc:creator>Annie Karni</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 07:26:48 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trudeau, Justin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macron, Emmanuel (1977- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Canadian Broadcasting Corp</category>
+    </item>
+    <item>
+      <title>Australia Revokes Medical Evacuations for Offshore Detainees</title>
+      <link>https://www.nytimes.com/2019/12/04/world/australia/medevac-refugees-repeal.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/world/australia/medevac-refugees-repeal.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/world/australia/medevac-refugees-repeal.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The government called the policy, enacted just 10 months ago, a “back door” to let refugees into the country. Human rights advocates denounced the repeal as shameful.</description>
+      <dc:creator>Isabella Kwai</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 11:33:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Asylum, Right of</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Nauru</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Papua New Guinea</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/world/0oz-refugees1/0oz-refugees1-moth.jpg" width="151"></media:content>
+      <media:credit>Peter Parks/Agence France-Presse — Getty Images</media:credit>
+      <media:description>A July rally in Sydney, Australia, calling for humane treatment of asylum seekers and refugees.</media:description>
+    </item>
+    <item>
+      <title>Kim Jong-un Visits Sacred Mountain on Horseback. Analysts Watch His Next Move.</title>
+      <link>https://www.nytimes.com/2019/12/04/world/asia/kim-jong-un-white-horse.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/world/asia/kim-jong-un-white-horse.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/world/asia/kim-jong-un-white-horse.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The North Korean leader has often visited Mount Paektu, near the border with China, before making major policy shifts.</description>
+      <dc:creator>Choe Sang-Hun</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 10:40:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kim Jong-un</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mount Paektu (North Korea)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Control and Limitation and Disarmament</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>Italians Celebrate Their Coffee and Want the World to Do So, Too</title>
+      <link>https://www.nytimes.com/2019/12/03/world/europe/italy-coffee-world-heritage.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/europe/italy-coffee-world-heritage.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/europe/italy-coffee-world-heritage.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Italy wants traditional Italian espresso to be inscribed on UNESCO’s list of the Intangible Cultural Heritage of Humanity.</description>
+      <dc:creator>Elisabetta Povoledo</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 19:26:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coffee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coffeehouses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations Educational, Scientific and Cultural Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/world/03italy-espresso/03italy-espresso-moth.jpg" width="151"></media:content>
+      <media:credit>Luca Bruno/Associated Press</media:credit>
+      <media:description>A waiter serving espresso coffees at a bar in Milan.</media:description>
+    </item>
+    <item>
+      <title>Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months</title>
+      <link>https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The 27-year-old actor appears in a TV series that premiered just last week.</description>
+      <dc:creator>Heather Murphy</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 01:48:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cha In-ha</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/multimedia/03xp-cha/03xp-kpop-moth.jpg" width="151"></media:content>
+      <media:credit>Yonhap News/Newscom, via ZUMA Press</media:credit>
+      <media:description>Cha In-ha at an event for the show “Love With Flaws” in Seoul, South Korea, in August.</media:description>
+    </item>
+    <item>
+      <title>Typhoon Kammuri Kills at Least 17 as It Powers Through Philippines</title>
+      <link>https://www.nytimes.com/2019/12/03/world/asia/philippines-typhoon-tisoy-kammuri.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/asia/philippines-typhoon-tisoy-kammuri.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/asia/philippines-typhoon-tisoy-kammuri.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Manila’s airport was shut for 12 hours and half a million people were evacuated as the typhoon swept through the archipelago.</description>
+      <dc:creator>Jamie Tarabay</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 05:41:48 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Typhoons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Typhoon Haiyan (2013)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Floods</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Landslides and Mudslides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Evacuations and Evacuees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Luzon (Philippines)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Manila (Philippines)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Philippines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Tacloban (Philippines)</category>
+    </item>
+    <item>
+      <title>Impeachment, Emmanuel Macron, Google: Your Wednesday Briefing</title>
+      <link>https://www.nytimes.com/2019/12/04/briefing/impeachment-emmanuel-macron-google.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/briefing/impeachment-emmanuel-macron-google.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/briefing/impeachment-emmanuel-macron-google.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here&#39;s what you need to know.</description>
+      <dc:creator>Chris Stanford</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 11:40:43 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/04/world/04usbriefing-amcore/04usbriefing-amcore-moth.jpg" width="151"></media:content>
+    </item>
+    <item>
+      <title>Climate Change Is Accelerating: ‘Things Are Getting Worse’</title>
+      <link>https://www.nytimes.com/2019/12/04/climate/climate-change-acceleration.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/climate/climate-change-acceleration.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/climate/climate-change-acceleration.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The acceleration climate change&#39;s effects have brought the world “dangerously close” to abrupt and irreversible changes, scientists warned. </description>
+      <dc:creator>Henry Fountain</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 10:00:26 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United Nations Framework Convention on Climate Change</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United Nations Climate Action Summit (2019)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/climate/00CLI-ACCELERATE1/00CLI-ACCELERATE1-moth.jpg" width="151"></media:content>
+      <media:credit>David Mcnew/Reuters</media:credit>
+      <media:description>A whirlwind of hot ash and embers tore through the Cave Fire in Santa Barbara, Calif., last month.</media:description>
+    </item>
+    <item>
+      <title>America’s Dark History of Killing Its Own Troops With Cluster Munitions</title>
+      <link>https://www.nytimes.com/2019/12/04/magazine/cluster-munitions-history.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/magazine/cluster-munitions-history.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/magazine/cluster-munitions-history.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The weapons are notorious for their effects on civilians. But five years of reporting and hundreds of interviews have revealed they’ve also killed and wounded scores of Americans.</description>
+      <dc:creator>John Ismay</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 10:00:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cluster Munitions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Iraq War (2003-11)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Aerojet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Defense Department</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/magazine/03atwar-clustermunitions-image-06/03atwar-clustermunitions-image-06-moth.jpg" width="151"></media:content>
+      <media:credit>Kirby Lee Vaughn</media:credit>
+      <media:description>First Lt. Des Walton salutes during a memorial service for seven members of his company who were killed in an explosion at As Salman Airfield in Iraq. Walton was injured in that same explosion, and was recovering from his wounds at the time.</media:description>
+    </item>
+    <item>
+      <title>Donald Trump, China, James Bond: Your Wednesday Briefing</title>
+      <link>https://www.nytimes.com/2019/12/04/briefing/trump-china-james-bond.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/briefing/trump-china-james-bond.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/briefing/trump-china-james-bond.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here’s what you need to know.</description>
+      <dc:creator>Mike Ives</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 06:13:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>San Diego Man on List of Most Wanted Terrorists Faces New Charges</title>
+      <link>https://www.nytimes.com/2019/12/03/us/san-diego-terrorist.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/us/san-diego-terrorist.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/us/san-diego-terrorist.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Jehad Serwan Mostafa, who the authorities say joined Al Shabab in his 20s, is believed to be the “highest-ranking U.S. citizen fighting overseas with a terrorist organization.”</description>
+      <dc:creator>Mihir Zaveri</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 04:22:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Shabab</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Al Qaeda</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Bureau of Investigation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Diego (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Somalia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mostafa, Jehad Serwan</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/multimedia/03xp-mostafa2/03xp-mostafa2-moth.jpg" width="151"></media:content>
+      <media:credit>Gregory Bull/Associated Press</media:credit>
+      <media:description>Robert Brewer, the United States attorney in San Diego, announced new charges against Jehad Serwan Mostafa at a news conference on Monday.</media:description>
+    </item>
+    <item>
+      <title>Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months</title>
+      <link>https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The 27-year-old actor appears in a TV series that premiered just last week.</description>
+      <dc:creator>Heather Murphy</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 01:48:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cha In-ha</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/multimedia/03xp-cha/03xp-kpop-moth.jpg" width="151"></media:content>
+      <media:credit>Yonhap News/Newscom, via ZUMA Press</media:credit>
+      <media:description>Cha In-ha at an event for the show “Love With Flaws” in Seoul, South Korea, in August.</media:description>
+    </item>
+    <item>
+      <title>The Turner Prize Goes to … All 4 Shortlisted Artists</title>
+      <link>https://www.nytimes.com/2019/12/03/arts/turner-prize-winners.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/arts/turner-prize-winners.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/arts/turner-prize-winners.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The artists, who included Oscar Murillo, asked to be considered as a group to make a statement on political unity. The judges agreed.</description>
+      <dc:creator>Alex Marshall</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 22:27:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Turner Prize</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Turner Contemporary (Margate, England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Murillo, Oscar (1986- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Margate (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tai Shani</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Helen Cammock</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lawrence Abu Hamdan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Awards, Decorations and Honors</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/04/arts/03turner-prize2/03turner-prize2-moth.jpg" width="151"></media:content>
+      <media:credit>Stuart C. Wilson/Getty Images</media:credit>
+    </item>
+    <item>
+      <title>Uighurs, China Trade, NATO: Your Wednesday Briefing</title>
+      <link>https://www.nytimes.com/2019/12/03/briefing/uighurs-trade-deal-dmz.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/briefing/uighurs-trade-deal-dmz.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/briefing/uighurs-trade-deal-dmz.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here’s what you need to know.</description>
+      <dc:creator>Melina Delkic</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 22:59:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>North Korea Touts New Resort, Seeking to Blunt U.N. Sanctions</title>
+      <link>https://www.nytimes.com/2019/12/03/world/asia/north-korea-resorts-sanctions.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/asia/north-korea-resorts-sanctions.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/asia/north-korea-resorts-sanctions.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Tourism is one of the few remaining sources of hard currency for Kim Jong-un’s government. He has embarked on a push for more foreign visitors.</description>
+      <dc:creator>Choe Sang-Hun</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 18:23:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kim Jong-un</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+    </item>
+    <item>
+      <title>‘I Don’t Know Prince Andrew,’ Trump Says. Photos Say Otherwise.</title>
+      <link>https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Speaking to reporters in London, President Trump denied knowing Prince Andrew, despite having been photographed with him on several occasions.</description>
+      <dc:creator>Iliana Magra</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 21:39:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labour Party (Great Britain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Andrew, Duke of York</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Epstein, Jeffrey E (1953- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Giuffre, Virginia Roberts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/world/03trumpandrew1/03trumpandrew1-moth.jpg" width="151"></media:content>
+      <media:credit>Pool photo by Stefan Rousseau</media:credit>
+      <media:description>President Trump, Melania Trump and Prince Andrew, left, during a tour of Westminster Abbey in London in June. </media:description>
+    </item>
+    <item>
+      <title>Why Are These Foxes Tame? Maybe They Weren’t So Wild to Begin With</title>
+      <link>https://www.nytimes.com/2019/12/03/science/foxes-tame-belyaev.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/science/foxes-tame-belyaev.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/science/foxes-tame-belyaev.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In a famous experiment, scientists bred Russian foxes without a fear of people. But the foxes’ ancestry raises new questions about when they became tame and what counts as domestication.</description>
+      <dc:creator>James Gorman</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 15:31:34 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animal Cognition</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foxes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Arizona State University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Broad Institute</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hampshire College</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Humboldt University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Oxford University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">University of Illinois</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Novosibirsk (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Prince Edward Island (Canada)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">USSR (Former Soviet Union)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/science/03SCI-FOXES1/03SCI-FOXES1-moth.jpg" width="151"></media:content>
+      <media:credit>Kirill Kukhmar\TASS, via Getty Images</media:credit>
+      <media:description>Domesticated foxes in an enclosure at the Institute of Cytology and Genetics in Novosibirsk, Russia.</media:description>
+    </item>
+    <item>
+      <title>Trump Warns Trade Talks With China May Last Past 2020 Election</title>
+      <link>https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The president said he was in no rush to complete a deal, injecting further uncertainty into a dispute that has rocked global markets.</description>
+      <dc:creator>Katie Rogers, Keith Bradsher and Ana Swanson</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 17:51:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/world/03china-trade4/merlin_144827730_0a95809f-b566-433c-b935-f76acc73018d-moth.jpg" width="151"></media:content>
+      <media:credit>Edmund D. Fountain for The New York Times</media:credit>
+      <media:description>The port of New Orleans. President Trump’s comments on Tuesday cast more uncertainty on an agreement he said he had made with China’s top trade envoy just weeks ago.</media:description>
+    </item>
+    <item>
+      <title>Tariffs, NATO, Philippines: Your Tuesday Briefing</title>
+      <link>https://www.nytimes.com/2019/12/03/briefing/tariffs-nato-philippines.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/briefing/tariffs-nato-philippines.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/briefing/tariffs-nato-philippines.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here&#39;s what you need to know.</description>
+      <dc:creator>Chris Stanford</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 13:09:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv</title>
+      <link>https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Ukraine’s government learned of the military aid freeze during the Trump administration’s pressure campaign — and tried to keep that knowledge from going public, an ex-deputy foreign minister said.</description>
+      <dc:creator>Andrew E. Kramer</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 12:59:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zelensky, Volodymyr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Olena Zerkal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Interference in 2016 US Elections and Ties to Trump Associates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cooper, Laura K</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/02ukraine/02ukraine-moth.jpg" width="151"></media:content>
+      <media:credit>Eva Plevier/Reuters</media:credit>
+      <media:description>Olena Zerkal, a former deputy minister of foreign affairs of Ukraine,  says she and other senior government officials knew in July of a freeze on American military aid.</media:description>
+    </item>
+    <item>
+      <title>‘It Just Isn’t Working’: PISA Test Scores Cast Doubt on U.S. Education Efforts</title>
+      <link>https://www.nytimes.com/2019/12/03/us/us-students-international-test-scores.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/us/us-students-international-test-scores.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/us/us-students-international-test-scores.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>An international exam shows that American 15-year-olds are stagnant in reading and math even though the country has spent billions to close gaps with the rest of the world.</description>
+      <dc:creator>Dana Goldstein</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 22:44:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tests and Examinations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Reading and Writing Skills (Education)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mathematics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">National Assessment of Educational Progress</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Center for Education Statistics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teenagers and Adolescence</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/us/02PISA-promo/02PISA-promo-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Megan Jelinger/Agence France-Presse — Getty Images</media:credit>
+      <media:description>The achievement gap in reading between high and low performers in the United States is widening.</media:description>
+    </item>
+    <item>
+      <title>Looking for a Castle or Country Home? Try Scotland</title>
+      <link>https://www.nytimes.com/2019/12/03/realestate/market-strong-for-castles-and-country-homes-in-scotland.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/realestate/market-strong-for-castles-and-country-homes-in-scotland.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/realestate/market-strong-for-castles-and-country-homes-in-scotland.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A 563-acre estate, complete with a new 12,000-square foot house, is being offered for $3.4 million.</description>
+      <dc:creator>Jon Hurdle</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 05:11:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Scotland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Edinburgh (Scotland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palaces and Castles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Home Repairs and Improvements</category>
+    </item>
+    <item>
+      <title>Your Tuesday Briefing: Boris Johnson, NATO, China</title>
+      <link>https://www.nytimes.com/2019/12/03/briefing/boris-johnson-nato-china.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/03/briefing/boris-johnson-nato-china.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/03/briefing/boris-johnson-nato-china.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here’s what you need to know.</description>
+      <dc:creator>Mike Ives</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 10:14:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Second Australian Rescued After Nearly 2 Weeks in Outback; Other Feared Dead</title>
+      <link>https://www.nytimes.com/2019/12/02/world/australia/outback-missing-rescue.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/australia/outback-missing-rescue.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/australia/outback-missing-rescue.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The man, Phu Tran, was found by a livestock farmer south of Alice Springs in central Australia. Officials say they may have found the remains of the third member of their party.</description>
+      <dc:creator>The Associated Press</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 10:21:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rescues</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Alice Springs (Australia)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/world/03oz-outback/03oz-outback-moth.jpg" width="151"></media:content>
+      <media:credit>Matthew Abbott for The New York Times</media:credit>
+      <media:description>A minibus traveling along an isolated road in central Australia last August. The region is known for its remoteness.</media:description>
+    </item>
+    <item>
+      <title>Prince Andrew’s Accuser Takes Her Case to the BBC</title>
+      <link>https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>For the first time, Virginia Roberts Giuffre told a British television audience about a trip she took to London in 2001, during which, she says, she was ordered to have sex with Prince Andrew.</description>
+      <dc:creator>Mark Landler</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 14:48:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Giuffre, Virginia Roberts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Andrew, Duke of York</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prostitution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">British Broadcasting Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Epstein, Jeffrey E (1953- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Abuse and Neglect</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/02andrew3/02andrew3-moth.jpg" width="151"></media:content>
+      <media:credit>BBC Panorama, via Associated Press</media:credit>
+      <media:description>Virginia Roberts Giuffre during an interview with the BBC on Monday.</media:description>
+    </item>
+    <item>
+      <title>In Russia, an Updated Law With New Restrictions on Freedom of Speech</title>
+      <link>https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>President Vladimir V. Putin of Russia on Monday signed a law that could require anyone distributing information and being paid from abroad to register as a foreign agent.</description>
+      <dc:creator>Anton Troianovski</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 22:56:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freedom of Speech and Expression</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/02russia-media/02russia-media-moth.jpg" width="151"></media:content>
+      <media:credit>Alexander Nemenov/Agence France-Presse — Getty Images</media:credit>
+      <media:description>A rally demanding internet freedom in Moscow in April last year.</media:description>
+    </item>
+    <item>
+      <title>Airstrike and Artillery Shelling Kill Civilians in Syrian Towns</title>
+      <link>https://www.nytimes.com/2019/12/02/world/middleeast/civilians-killed-syria.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/middleeast/civilians-killed-syria.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/middleeast/civilians-killed-syria.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Thirteen civilians were killed in a strike on a market in a rebel-held town and eight children were among those killed by shelling near a school in a Kurdish town.</description>
+      <dc:creator>The Associated Press</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 21:21:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Syrian Observatory for Human Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">White Helmets (Syrian Civil Defense Volunteer Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Idlib (Syria)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/02syria/02syria-moth.jpg" width="151"></media:content>
+      <media:credit>Abdulaziz Ketaz/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Members of the Syrian Civil Defense recover a body from the aftermath of an air strike in the town of Maaret al-Numan in Syria on Monday.</media:description>
+    </item>
+    <item>
+      <title>Was This 18,000-Year-Old Siberian Puppy a Dog or a Wolf?</title>
+      <link>https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The animal was buried in a lump of frozen mud in Russia, its fur, whiskers and body fully intact. Scientists are studying its DNA to understand whether it is a dog or a wolf.</description>
+      <dc:creator>Laura M. Holson</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 16:02:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wolves</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dogs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yakutsk (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Siberia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Paleontology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/multimedia/02xp-frozenpuppy2/02xp-frozenpuppy2-moth.jpg" width="151"></media:content>
+      <media:credit>Sergei Fyodorov/The Yakutsk Mammoth Museum, via Associated Press</media:credit>
+      <media:description>Scientists presented a unique prehistoric canine, believed to be 18,000 years old, to the public on Monday. It was found in permafrost in the far east of Russia.</media:description>
+    </item>
+    <item>
+      <title>For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump</title>
+      <link>https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>President Trump has roiled British politics before, with comments on terrorism, as well as Brexit, trade and other sensitive issues. He may do so again as he visits for a NATO meeting.</description>
+      <dc:creator>Mark Landler and Benjamin Mueller</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 17:15:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sentences (Criminal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Conservative Party (Great Britain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labour Party (Great Britain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Boris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Corbyn, Jeremy (1949- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khan, Usman (d 2019)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/02uk-politics/02uk-politics-moth.jpg" width="151"></media:content>
+      <media:credit>Jeff Overs/BBC/Agence France-Presse, via Via Getty Images</media:credit>
+      <media:description>Prime Minister Boris Johnson of Britain, right, during a segment of BBC’s political program “The Andrew Marr Show” on Sunday.</media:description>
+    </item>
+    <item>
+      <title>Your Tuesday Briefing</title>
+      <link>https://www.nytimes.com/2019/12/02/briefing/hong-kong-huawei-typhoon-kammuri.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/briefing/hong-kong-huawei-typhoon-kammuri.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/briefing/hong-kong-huawei-typhoon-kammuri.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Hong Kong, Huawei, opioid crisis: Here’s what you need to know.</description>
+      <dc:creator>Melina Delkic</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 10:14:36 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/travel/03AsiaBrief-promo/merlin_164028534_c51c096d-a0f9-4b9b-be7d-1f8d11bbf72c-moth.jpg" width="151"></media:content>
+      <media:credit>Lauryn Ishak for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Dead Whale, 220 Pounds of Debris Inside, Is a ‘Grim Reminder’ of Ocean Trash</title>
+      <link>https://www.nytimes.com/2019/12/02/world/europe/harris-beached-whale.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/europe/harris-beached-whale.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/europe/harris-beached-whale.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The sperm whale washed up on a Scottish beach with a stomach full of rope, netting and plastic. “What was unusual in this case was the sheer volume,” a local expert said.</description>
+      <dc:creator>Johnny Diaz</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 20:26:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Whales and Whaling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Water Pollution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Scotland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fish and Other Marine Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hebrides Islands (Great Britain)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/multimedia/02xp-whale/02xp-whale-moth.jpg" width="151"></media:content>
+      <media:credit>Scottish Marine Animal Stranding Scheme</media:credit>
+      <media:description>The 10-year-old whale died after becoming stranded on a sand bank, according to a local research group, the Scottish Marine Animal Stranding Scheme. </media:description>
+    </item>
+    <item>
+      <title>Fighting Extradition, Huawei Executive Writes of ‘Moments of Fear’</title>
+      <link>https://www.nytimes.com/2019/12/02/world/canada/meng-wanzhou-huawei-extradition.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/canada/meng-wanzhou-huawei-extradition.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/canada/meng-wanzhou-huawei-extradition.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>On the first anniversary of her arrest, Meng Wanzhou wrote a public letter describing her life in Vancouver, where she is living in a seven-bedroom mansion.</description>
+      <dc:creator>Dan Bilefsky</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 22:44:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Extradition</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Meng Wanzhou</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Vancouver (British Columbia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Huawei Technologies Co Ltd</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/02meng-letter/02meng-letter-moth.jpg" width="151"></media:content>
+      <media:credit>Darryl Dyck/The Canadian Press, via Associated Press</media:credit>
+      <media:description>Meng Wanzhou, Huawei’s chief financial officer, near her Vancouver home in October.</media:description>
+    </item>
+    <item>
+      <title>Activist’s Case Hints at What Changes and What Stays the Same in Cuba</title>
+      <link>https://www.nytimes.com/2019/12/02/world/americas/cuban-activist-ferrer-diaz-canel.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/americas/cuban-activist-ferrer-diaz-canel.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/americas/cuban-activist-ferrer-diaz-canel.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>José Daniel Ferrer’s arrest reflects the lengths to which the Díaz-Canel government will go against dissidents.</description>
+      <dc:creator>Frances Robles</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 01:56:26 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Diaz-Canel Bermudez, Miguel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ferrer, Jose Daniel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cuba</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/11/26/business/00CUBA-DISSIDENT-01/00CUBA-DISSIDENT-01-moth.jpg" width="151"></media:content>
+      <media:credit>Chip Somodevilla/Getty Images</media:credit>
+      <media:description>José Daniel Ferrer Garcia speaking with reporters in 2016.</media:description>
+    </item>
+    <item>
+      <title>London Bridge Attack Victims Were Advocates for Prisoner Rehabilitation</title>
+      <link>https://www.nytimes.com/2019/12/02/world/europe/london-bridge-attack-victims.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/europe/london-bridge-attack-victims.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/europe/london-bridge-attack-victims.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Saskia Jones and Jack Merritt, who were killed in the attack, had worked with a prison education program backed by Cambridge University.</description>
+      <dc:creator>Megan Specia</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 19:03:51 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ex-Convicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sentences (Criminal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Probation and Parole</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jones, Saskia (d 2019)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/business/02london-victims1sub/02london-victims1sub-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Peter Summers/Getty Images</media:credit>
+      <media:description>Flowers left for Jack Merritt and Saskia Jones in London on Monday near the site where they were killed in what the police called a terrorism-related attack.</media:description>
+    </item>
+    <item>
+      <title>China Hits Back at U.S. Over Hong Kong Bill in a Mostly Symbolic Move</title>
+      <link>https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Beijing said it would suspend visits to Hong Kong by American warships and impose sanctions on several nongovernmental groups. The measures suggest China is wary of upsetting trade negotiations.</description>
+      <dc:creator>Amy Qin</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 13:39:09 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hong Kong Protests (2019)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hong Kong</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/02china-hk/merlin_165148833_efddcbca-e6fd-401b-bebc-668b52eba493-moth.jpg" width="151"></media:content>
+      <media:credit>Lam Yik Fei for The New York Times</media:credit>
+      <media:description>Demonstrators in Hong Kong, above, on Thursday celebrated President Trump’s signing of legislation aimed at curbing human-rights abuses in the city.</media:description>
+    </item>
+    <item>
+      <title>Democrats, Prince Charles, N.F.L.: Your Monday Briefing</title>
+      <link>https://www.nytimes.com/2019/12/02/briefing/democrats-prince-charles-nfl.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/briefing/democrats-prince-charles-nfl.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/briefing/democrats-prince-charles-nfl.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here&#39;s what you need to know.</description>
+      <dc:creator>Chris Stanford</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 12:26:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘Incredible Story of Survival’: Woman Rescued After 12 Days in Outback</title>
+      <link>https://www.nytimes.com/2019/12/02/world/australia/outback-lost-survival.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/australia/outback-lost-survival.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/australia/outback-lost-survival.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Tire tracks and a note helped lead to a water hole where an Australian survived by boiling water. But two other people are still missing.</description>
+      <dc:creator>Isabella Kwai</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 11:43:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Missing Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rescues</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Northern Territory (Australia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McBeath-Riley, Tamra</category>
+    </item>
+    <item>
+      <title>NATO Readies a 70th Birthday Party, With Low-Key Celebrations</title>
+      <link>https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A short meeting of the alliance’s leaders in London is meant to avoid conflict, but there are worries about the intentions of Presidents Trump and Emmanuel Macron.</description>
+      <dc:creator>Steven Erlanger</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 07:55:07 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stoltenberg, Jens</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macron, Emmanuel (1977- )</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/01Nato1/01Nato1-moth.jpg" width="151"></media:content>
+      <media:credit>Jasper Juinen/Getty Images</media:credit>
+      <media:description>NATO leaders during the 2018 summit meeting in Brussels.</media:description>
+    </item>
+    <item>
+      <title>ISIS Is Losing Afghan Territory. That Means Little for Its Victims.</title>
+      <link>https://www.nytimes.com/2019/12/02/world/asia/ISIS-afghanistan-baghdadi.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/asia/ISIS-afghanistan-baghdadi.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/asia/ISIS-afghanistan-baghdadi.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Offensives against the Islamic State’s Afghan branch have brought it down to several hundred fighters, officials say. But they warn that the group’s cruelty is still a threat.</description>
+      <dc:creator>Thomas Gibbons-Neff and Mujib Mashal</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 11:39:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Taliban</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Baghdadi, Abu Bakr al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+    </item>
+    <item>
+      <title>Manila Airport Shut as Typhoon Kammuri Hits the Philippines</title>
+      <link>https://www.nytimes.com/2019/12/02/world/asia/typhoon-tisoy-kammuri-philippines.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/world/asia/typhoon-tisoy-kammuri-philippines.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/world/asia/typhoon-tisoy-kammuri-philippines.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Kammuri has begun dumping torrential rains across the eastern provinces of the archipelago and could disrupt the Southeast Asian Games.</description>
+      <dc:creator>Jamie Tarabay</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 13:51:50 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Typhoon Haiyan (2013)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weather</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Typhoons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Evacuations and Evacuees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Duterte, Rodrigo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Philippines</category>
+    </item>
+    <item>
+      <title>Your Monday Briefing: Malta, Prince Andrew, Northern Ireland</title>
+      <link>https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here’s what you need to know.</description>
+      <dc:creator>Mike Ives</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 06:06:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>At Least 14 People Killed in Burkina Faso Church Attack</title>
+      <link>https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The country was once a pocket of calm in West Africa, but the past year’s violence has killed hundreds and forced nearly a million people from their homes.</description>
+      <dc:creator>Reuters</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 00:41:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Burkina Faso</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">West Africa</category>
+    </item>
+    <item>
+      <title>Malta Leader Says He Will Resign, as Murder Inquiry Widens</title>
+      <link>https://www.nytimes.com/2019/12/01/world/europe/malta-prime-minister-resigns.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/europe/malta-prime-minister-resigns.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/europe/malta-prime-minister-resigns.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>An investigation into the 2017 murder of Daphne Caruana Galizia has reached into the government, triggering protests and a promise by Prime Minister Joseph Muscat to quit next year.</description>
+      <dc:creator>Andrew Higgins</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 09:57:19 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Assassinations and Attempted Assassinations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Muscat, Joseph (1974- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Caruana Galizia, Daphne</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Malta</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Valletta (Malta)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/us/01MALTA-tv/01MALTA-tv-moth.jpg" width="151"></media:content>
+      <media:credit>Associated Press</media:credit>
+      <media:description>Prime Minister Joseph Muscat of Malta addressing the nation during a TV broadcast on Sunday.</media:description>
+    </item>
+    <item>
+      <title>Suspects in Mormon Family’s Killing Are Arrested in Mexico</title>
+      <link>https://www.nytimes.com/2019/12/01/world/americas/mexico-mormon-family.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/americas/mexico-mormon-family.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/americas/mexico-mormon-family.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The announcement did not include details on the suspects’ identities or their connection to the murders. The López Obrador administration is under pressure to curb spiraling violence.</description>
+      <dc:creator>Kirk Semple</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 15:03:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mormon Family Massacre (Mexico, 2019)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drug Cartels</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lopez Obrador, Andres Manuel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sonora (Mexico)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/01/us/01MEXICO-lebaron/01MEXICO-lebaron-moth.jpg" width="151"></media:content>
+      <media:credit>Jose Luis Gonzalez/Reuters</media:credit>
+      <media:description>Members of the LeBarón family, part of the Mormon community that saw nine of its members murdered, participate in a march against violence to mark President Andrés Manuel López Obrador’s first year in office.</media:description>
+    </item>
+    <item>
+      <title>As Troubles Grow, Mexicans Keep the Faith With Their President</title>
+      <link>https://www.nytimes.com/2019/12/01/world/americas/amlo-mexico-year-violence.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/americas/amlo-mexico-year-violence.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/americas/amlo-mexico-year-violence.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>One year into his term, President Andrés Manuel López Obrador faces a stagnant economy and spiraling violence, but Mexicans still place their hopes in him.</description>
+      <dc:creator>Elisabeth Malkin</dc:creator>
+      <pubDate>Sun, 01 Dec 2019 23:25:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lopez Obrador, Andres Manuel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Pemex</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Tabasco (Mexico)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/us/02MEXICO-amlo3/02MEXICO-amlo3-moth.jpg" width="151"></media:content>
+      <media:credit>Pedro Pardo/Agence France-Presse &amp;mdash; Getty Images</media:credit>
+      <media:description>President Andrés Manuel López Obrador on Mexico waving next to his wife, Beatriz Gutierrez Muller, during a rally marking his first year in office in Mexico City, Sunday.</media:description>
+    </item>
+    <item>
+      <title>Hong Kong, Fentanyl in China, Julian Assange: Your Monday Briefing</title>
+      <link>https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Here’s what you need to know.</description>
+      <dc:creator>Melina Delkic</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 14:19:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>With Brutal Crackdown, Iran Is Convulsed by Worst Unrest in 40 Years</title>
+      <link>https://www.nytimes.com/2019/12/01/world/middleeast/iran-protests-deaths.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/middleeast/iran-protests-deaths.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/middleeast/iran-protests-deaths.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>What started as a protest over a surprise increase in gasoline prices turned into widespread demonstrations met with a systematic repression that left at least 180 people dead.</description>
+      <dc:creator>Farnaz Fassihi and Rick Gladstone</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 11:21:41 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khamenei, Ali</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rouhani, Hassan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic Revolutionary Guards Corps</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moussavi, Mir Hussein</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mahshahr (Iran)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+    </item>
+    <item>
+      <title>Irish Ex-Soldier Who Married ISIS Fighter Is Arrested</title>
+      <link>https://www.nytimes.com/2019/12/01/world/europe/ireland-isis-bride-lisa-smith.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/europe/ireland-isis-bride-lisa-smith.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/europe/ireland-isis-bride-lisa-smith.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Lisa Smith, 38, and her 2-year-old daughter were deported by Turkey from a Syrian displacement camp and landed in Dublin on Sunday.</description>
+      <dc:creator>Ed O’Loughlin</dc:creator>
+      <pubDate>Sun, 01 Dec 2019 21:14:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/us/01IRELAND-ISIS/01IRELAND-ISIS-moth.jpg" width="151"></media:content>
+      <media:credit>Eamonn Farrell/RollingNews.ie</media:credit>
+      <media:description>Lisa Smith, with a pink blanket over her head, leaving a Turkish Airlines plane at Dublin Airport.</media:description>
+    </item>
+    <item>
+      <title>China Is Aiming to ‘Break’ Detained Australian Writer, Lawyers Say</title>
+      <link>https://www.nytimes.com/2019/12/01/world/australia/yang-hengjun-isolation-china.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/australia/yang-hengjun-isolation-china.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/australia/yang-hengjun-isolation-china.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Yang Hengjun has been shackled, cut off from all contact with his family and interrogated daily to make him confess to being a spy, his representatives said.</description>
+      <dc:creator>Damien Cave</dc:creator>
+      <pubDate>Sun, 01 Dec 2019 17:02:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yang Hengjun</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/01oz-china/01oz-china-moth.jpg" width="151"></media:content>
+      <media:credit>Chongyi Feng, via Associated Press</media:credit>
+      <media:description>Yang Hengjun with his wife, Yuan Xiaoliang. He was detained in January on a trip to China.</media:description>
+    </item>
+    <item>
+      <title>In Prince Andrew Scandal, Prince Charles Emerges as Monarch-in-Waiting</title>
+      <link>https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>After a public-relations debacle stirred questions about the role of Queen Elizabeth II, the Prince of Wales is asserting a newfound authority in British royal affairs.</description>
+      <dc:creator>Mark Landler</dc:creator>
+      <pubDate>Tue, 03 Dec 2019 13:47:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Andrew, Duke of York</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Charles, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Elizabeth II, Queen of Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Epstein, Jeffrey E (1953- )</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/03/world/28Uk-queen1/28Uk-queen1-moth.jpg" width="151"></media:content>
+      <media:credit>Pool photo by Toby Melville</media:credit>
+      <media:description>Queen Elizabeth II and Prince Charles at the state opening of Parliament in London in October.</media:description>
+    </item>
+    <item>
+      <title>U.S. Drone Killed Afghan Civilians, Officials Say</title>
+      <link>https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The strike on a car killed all five onboard, including a woman who had given birth hours before, relatives and officials said.</description>
+      <dc:creator>Farooq Jan Mangal and Fahim Abed</dc:creator>
+      <pubDate>Sun, 01 Dec 2019 11:42:34 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drones (Pilotless Planes)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Afghan National Security Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Taliban</category>
+    </item>
+    <item>
+      <title>Assange to Testify on Being Recorded in Embassy in London</title>
+      <link>https://www.nytimes.com/2019/12/01/world/europe/assange-spying-embassy-Ecuador.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/europe/assange-spying-embassy-Ecuador.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/europe/assange-spying-embassy-Ecuador.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Recordings have emerged of private conversations that Julian Assange, the WikiLeaks founder, had while living in the Ecuadorean Embassy. He and a Spanish prosecutor blame the United States.</description>
+      <dc:creator>Raphael Minder</dc:creator>
+      <pubDate>Sun, 01 Dec 2019 15:58:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diplomatic Service, Embassies and Consulates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Court (Spain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">WikiLeaks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assange, Julian P</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ecuador</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/01assange1/01assange1-moth.jpg" width="151"></media:content>
+      <media:credit>Matt Dunham/Associated Press</media:credit>
+      <media:description>Julian Assange addressing members of the news media from the Ecuadorean Embassy in London in 2017.</media:description>
+    </item>
+    <item>
+      <title>‘I Wanted to Die:’ Northern Ireland Confronts a Suicide Crisis</title>
+      <link>https://www.nytimes.com/2019/12/01/world/europe/northern-ireland-suicide.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/europe/northern-ireland-suicide.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/europe/northern-ireland-suicide.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Haunted by a violent past, the territory has one of the highest suicide rates in the world.</description>
+      <dc:creator>Ceylan Yeginsu</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 17:54:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Depression (Mental)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anxiety and Stress</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Post-Traumatic Stress Disorder</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suicides and Suicide Attempts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Northern Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Irish Republican Army</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Derry (Northern Ireland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Enniskillen (Northern Ireland)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/10/08/world/xxni-suicide1-promo/xxni-suicide1-promo-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Andrew Testa for The New York Times</media:credit>
+      <media:description>Joe Holbeach, 69, links his suicidal behaviors to the suffering he experienced during the Northern Ireland conflict.</media:description>
+    </item>
+    <item>
+      <title>Hong Kong Police Fire Tear Gas as Protesters Return in Force</title>
+      <link>https://www.nytimes.com/2019/12/01/world/asia/hong-kong-protests.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/01/world/asia/hong-kong-protests.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/01/world/asia/hong-kong-protests.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>After a week of relative calm and a vote that boosted protesters’ cause, officers fired tear gas and rubber bullets, and demonstrators attacked shops.</description>
+      <dc:creator>Elaine Yu</dc:creator>
+      <pubDate>Mon, 02 Dec 2019 01:15:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hong Kong Protests (2019)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hong Kong</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lam, Carrie (1957- )</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/02/world/01hongkong02/01hongkong02-moth.jpg" width="151"></media:content>
+      <media:credit>Lam Yik Fei for The New York Times</media:credit>
+      <media:description>Thousands of people took part in a pro-democracy protest in the Tsim Sha Tsui neighborhood of Hong Kong on Sunday.</media:description>
+    </item>
+    <item>
+      <title>Leonardo DiCaprio Responds to Brazil’s President About Amazon Fires</title>
+      <link>https://www.nytimes.com/2019/11/30/world/americas/Jair-bolsonaro-amazon-fires-Leonardo-DiCaprio.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/11/30/world/americas/Jair-bolsonaro-amazon-fires-Leonardo-DiCaprio.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/11/30/world/americas/Jair-bolsonaro-amazon-fires-Leonardo-DiCaprio.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The actor and environmentalist released a statement on Saturday after President Jair Bolsonaro falsely accused him of funding the fires recently set in the Amazon rainforest.</description>
+      <dc:creator>Aimee Ortiz</dc:creator>
+      <pubDate>Sun, 01 Dec 2019 01:03:22 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fires and Firefighters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Wildlife Fund</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Amazon Jungle</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brazil</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bolsonaro, Jair (1955- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">DiCaprio, Leonardo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/11/30/multimedia/30xp-amazon/30xp-amazon-moth.jpg" width="151"></media:content>
+      <media:credit>Theo Wargo/Getty Images For Global Citizen</media:credit>
+      <media:description>“At this time of crisis for the Amazon, I support the people of Brazil working to save their natural and cultural heritage,” Leonardo DiCaprio posted on Instagram on Saturday.</media:description>
+    </item>
+  </channel>
+</rss>

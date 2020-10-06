@@ -1,0 +1,6461 @@
+[
+  {
+    "index": 0,
+    "keyphrase": "tense",
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 1,
+    "keyphrase": "exchange",
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 2,
+    "keyphrase": "trump",
+    "pageRank": 0.0036644962
+  },
+  {
+    "index": 3,
+    "keyphrase": "macron",
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 4,
+    "keyphrase": "forth",
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 5,
+    "keyphrase": "dueling",
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 6,
+    "keyphrase": "visions",
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 7,
+    "keyphrase": "nato",
+    "pageRank": 0.0031501388
+  },
+  {
+    "index": 8,
+    "keyphrase": [
+      "tense",
+      "exchange"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 9,
+    "keyphrase": [
+      "exchange",
+      "trump"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 10,
+    "keyphrase": [
+      "trump",
+      "macron"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 11,
+    "keyphrase": [
+      "macron",
+      "forth"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 12,
+    "keyphrase": [
+      "forth",
+      "dueling"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 13,
+    "keyphrase": [
+      "dueling",
+      "visions"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 14,
+    "keyphrase": [
+      "visions",
+      "nato"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 15,
+    "keyphrase": [
+      "tense",
+      "exchange",
+      "trump"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 16,
+    "keyphrase": [
+      "exchange",
+      "trump",
+      "macron"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 17,
+    "keyphrase": [
+      "trump",
+      "macron",
+      "forth"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 18,
+    "keyphrase": [
+      "macron",
+      "forth",
+      "dueling"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 19,
+    "keyphrase": [
+      "forth",
+      "dueling",
+      "visions"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 20,
+    "keyphrase": [
+      "dueling",
+      "visions",
+      "nato"
+    ],
+    "pageRank": 0.0011023999
+  },
+  {
+    "index": 21,
+    "keyphrase": "make",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 22,
+    "keyphrase": "sense",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 23,
+    "keyphrase": "lebanon",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 24,
+    "keyphrase": "protests",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 25,
+    "keyphrase": "follow",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 26,
+    "keyphrase": "garbage",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 27,
+    "keyphrase": [
+      "make",
+      "sense"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 28,
+    "keyphrase": [
+      "sense",
+      "lebanon"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 29,
+    "keyphrase": [
+      "lebanon",
+      "protests"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 30,
+    "keyphrase": [
+      "protests",
+      "follow"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 31,
+    "keyphrase": [
+      "follow",
+      "garbage"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 32,
+    "keyphrase": [
+      "make",
+      "sense",
+      "lebanon"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 33,
+    "keyphrase": [
+      "sense",
+      "lebanon",
+      "protests"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 34,
+    "keyphrase": [
+      "lebanon",
+      "protests",
+      "follow"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 35,
+    "keyphrase": [
+      "protests",
+      "follow",
+      "garbage"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 36,
+    "keyphrase": "china",
+    "pageRank": 0.0048022767
+  },
+  {
+    "index": 37,
+    "keyphrase": "uses",
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 38,
+    "keyphrase": "dna",
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 39,
+    "keyphrase": "map",
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 40,
+    "keyphrase": "faces",
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 41,
+    "keyphrase": "help",
+    "pageRank": 0.0019371714
+  },
+  {
+    "index": 42,
+    "keyphrase": "west",
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 43,
+    "keyphrase": [
+      "china",
+      "uses"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 44,
+    "keyphrase": [
+      "uses",
+      "dna"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 45,
+    "keyphrase": [
+      "dna",
+      "map"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 46,
+    "keyphrase": [
+      "map",
+      "faces"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 47,
+    "keyphrase": [
+      "faces",
+      "help"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 48,
+    "keyphrase": [
+      "help",
+      "west"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 49,
+    "keyphrase": [
+      "china",
+      "uses",
+      "dna"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 50,
+    "keyphrase": [
+      "uses",
+      "dna",
+      "map"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 51,
+    "keyphrase": [
+      "dna",
+      "map",
+      "faces"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 52,
+    "keyphrase": [
+      "map",
+      "faces",
+      "help"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 53,
+    "keyphrase": [
+      "faces",
+      "help",
+      "west"
+    ],
+    "pageRank": 0.0010271758
+  },
+  {
+    "index": 54,
+    "keyphrase": "typhoon",
+    "pageRank": 0.0016956641
+  },
+  {
+    "index": 55,
+    "keyphrase": "kammuri",
+    "pageRank": 0.0016956641
+  },
+  {
+    "index": 56,
+    "keyphrase": "leaves",
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 57,
+    "keyphrase": "destruction",
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 58,
+    "keyphrase": "powers",
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 59,
+    "keyphrase": "philippines",
+    "pageRank": 0.002297587
+  },
+  {
+    "index": 60,
+    "keyphrase": [
+      "typhoon",
+      "kammuri"
+    ],
+    "pageRank": 0.0016956641
+  },
+  {
+    "index": 61,
+    "keyphrase": [
+      "kammuri",
+      "leaves"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 62,
+    "keyphrase": [
+      "leaves",
+      "destruction"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 63,
+    "keyphrase": [
+      "destruction",
+      "powers"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 64,
+    "keyphrase": [
+      "powers",
+      "philippines"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 65,
+    "keyphrase": [
+      "typhoon",
+      "kammuri",
+      "leaves"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 66,
+    "keyphrase": [
+      "kammuri",
+      "leaves",
+      "destruction"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 67,
+    "keyphrase": [
+      "leaves",
+      "destruction",
+      "powers"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 68,
+    "keyphrase": [
+      "destruction",
+      "powers",
+      "philippines"
+    ],
+    "pageRank": 0.0009524584
+  },
+  {
+    "index": 69,
+    "keyphrase": "prince",
+    "pageRank": 0.0027060943
+  },
+  {
+    "index": 70,
+    "keyphrase": "andrew",
+    "pageRank": 0.0023798112
+  },
+  {
+    "index": 71,
+    "keyphrase": "accuser",
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 72,
+    "keyphrase": "takes",
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 73,
+    "keyphrase": "case",
+    "pageRank": 0.0026565132
+  },
+  {
+    "index": 74,
+    "keyphrase": "bbc",
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 75,
+    "keyphrase": [
+      "prince",
+      "andrew"
+    ],
+    "pageRank": 0.0023798112
+  },
+  {
+    "index": 76,
+    "keyphrase": [
+      "andrew",
+      "accuser"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 77,
+    "keyphrase": [
+      "accuser",
+      "takes"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 78,
+    "keyphrase": [
+      "takes",
+      "case"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 79,
+    "keyphrase": [
+      "case",
+      "bbc"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 80,
+    "keyphrase": [
+      "prince",
+      "andrew",
+      "accuser"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 81,
+    "keyphrase": [
+      "andrew",
+      "accuser",
+      "takes"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 82,
+    "keyphrase": [
+      "accuser",
+      "takes",
+      "case"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 83,
+    "keyphrase": [
+      "takes",
+      "case",
+      "bbc"
+    ],
+    "pageRank": 0.0008951206
+  },
+  {
+    "index": 84,
+    "keyphrase": "charlottesville",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 85,
+    "keyphrase": "echoes",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 86,
+    "keyphrase": "forced",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 87,
+    "keyphrase": "new",
+    "pageRank": 0.002037752
+  },
+  {
+    "index": 88,
+    "keyphrase": "zealand",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 89,
+    "keyphrase": "confront",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 90,
+    "keyphrase": "history",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 91,
+    "keyphrase": [
+      "charlottesville",
+      "echoes"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 92,
+    "keyphrase": [
+      "echoes",
+      "forced"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 93,
+    "keyphrase": [
+      "forced",
+      "new"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 94,
+    "keyphrase": [
+      "new",
+      "zealand"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 95,
+    "keyphrase": [
+      "zealand",
+      "confront"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 96,
+    "keyphrase": [
+      "confront",
+      "history"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 97,
+    "keyphrase": [
+      "charlottesville",
+      "echoes",
+      "forced"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 98,
+    "keyphrase": [
+      "echoes",
+      "forced",
+      "new"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 99,
+    "keyphrase": [
+      "forced",
+      "new",
+      "zealand"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 100,
+    "keyphrase": [
+      "new",
+      "zealand",
+      "confront"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 101,
+    "keyphrase": [
+      "zealand",
+      "confront",
+      "history"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 102,
+    "keyphrase": "second",
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 103,
+    "keyphrase": "australian",
+    "pageRank": 0.0019150778
+  },
+  {
+    "index": 104,
+    "keyphrase": "rescued",
+    "pageRank": 0.0018553966
+  },
+  {
+    "index": 105,
+    "keyphrase": "nearly",
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 106,
+    "keyphrase": "weeks",
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 107,
+    "keyphrase": "outback",
+    "pageRank": 0.0018553966
+  },
+  {
+    "index": 108,
+    "keyphrase": [
+      "second",
+      "australian"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 109,
+    "keyphrase": [
+      "australian",
+      "rescued"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 110,
+    "keyphrase": [
+      "rescued",
+      "nearly"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 111,
+    "keyphrase": [
+      "nearly",
+      "weeks"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 112,
+    "keyphrase": [
+      "weeks",
+      "outback"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 113,
+    "keyphrase": [
+      "second",
+      "australian",
+      "rescued"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 114,
+    "keyphrase": [
+      "australian",
+      "rescued",
+      "nearly"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 115,
+    "keyphrase": [
+      "rescued",
+      "nearly",
+      "weeks"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 116,
+    "keyphrase": [
+      "nearly",
+      "weeks",
+      "outback"
+    ],
+    "pageRank": 0.0009720622
+  },
+  {
+    "index": 117,
+    "keyphrase": "ukraine",
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 118,
+    "keyphrase": "knew",
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 119,
+    "keyphrase": "aid",
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 120,
+    "keyphrase": "freeze",
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 121,
+    "keyphrase": "july",
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 122,
+    "keyphrase": "says",
+    "pageRank": 0.0019451719
+  },
+  {
+    "index": 123,
+    "keyphrase": "ex",
+    "pageRank": 0.0020076355
+  },
+  {
+    "index": 124,
+    "keyphrase": "official",
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 125,
+    "keyphrase": "kyiv",
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 126,
+    "keyphrase": [
+      "ukraine",
+      "knew"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 127,
+    "keyphrase": [
+      "knew",
+      "aid"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 128,
+    "keyphrase": [
+      "aid",
+      "freeze"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 129,
+    "keyphrase": [
+      "freeze",
+      "july"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 130,
+    "keyphrase": [
+      "july",
+      "says"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 131,
+    "keyphrase": [
+      "says",
+      "ex"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 132,
+    "keyphrase": [
+      "ex",
+      "official"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 133,
+    "keyphrase": [
+      "official",
+      "kyiv"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 134,
+    "keyphrase": [
+      "ukraine",
+      "knew",
+      "aid"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 135,
+    "keyphrase": [
+      "knew",
+      "aid",
+      "freeze"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 136,
+    "keyphrase": [
+      "aid",
+      "freeze",
+      "july"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 137,
+    "keyphrase": [
+      "freeze",
+      "july",
+      "says"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 138,
+    "keyphrase": [
+      "july",
+      "says",
+      "ex"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 139,
+    "keyphrase": [
+      "says",
+      "ex",
+      "official"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 140,
+    "keyphrase": [
+      "ex",
+      "official",
+      "kyiv"
+    ],
+    "pageRank": 0.0011235275
+  },
+  {
+    "index": 141,
+    "keyphrase": "boris",
+    "pageRank": 0.0023925989
+  },
+  {
+    "index": 142,
+    "keyphrase": "johnson",
+    "pageRank": 0.0023925989
+  },
+  {
+    "index": 143,
+    "keyphrase": "perilous",
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 144,
+    "keyphrase": "week",
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 145,
+    "keyphrase": "negotiating",
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 146,
+    "keyphrase": "terrorism",
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 147,
+    "keyphrase": [
+      "boris",
+      "johnson"
+    ],
+    "pageRank": 0.0023925989
+  },
+  {
+    "index": 148,
+    "keyphrase": [
+      "johnson",
+      "perilous"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 149,
+    "keyphrase": [
+      "perilous",
+      "week"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 150,
+    "keyphrase": [
+      "week",
+      "negotiating"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 151,
+    "keyphrase": [
+      "negotiating",
+      "terrorism"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 152,
+    "keyphrase": [
+      "terrorism",
+      "trump"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 153,
+    "keyphrase": [
+      "boris",
+      "johnson",
+      "perilous"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 154,
+    "keyphrase": [
+      "johnson",
+      "perilous",
+      "week"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 155,
+    "keyphrase": [
+      "perilous",
+      "week",
+      "negotiating"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 156,
+    "keyphrase": [
+      "week",
+      "negotiating",
+      "terrorism"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 157,
+    "keyphrase": [
+      "negotiating",
+      "terrorism",
+      "trump"
+    ],
+    "pageRank": 0.0009828745
+  },
+  {
+    "index": 158,
+    "keyphrase": "warns",
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 159,
+    "keyphrase": "trade",
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 160,
+    "keyphrase": "talks",
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 161,
+    "keyphrase": "past",
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 162,
+    "keyphrase": "election",
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 163,
+    "keyphrase": [
+      "trump",
+      "warns"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 164,
+    "keyphrase": [
+      "warns",
+      "trade"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 165,
+    "keyphrase": [
+      "trade",
+      "talks"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 166,
+    "keyphrase": [
+      "talks",
+      "china"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 167,
+    "keyphrase": [
+      "china",
+      "past"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 168,
+    "keyphrase": [
+      "past",
+      "election"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 169,
+    "keyphrase": [
+      "trump",
+      "warns",
+      "trade"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 170,
+    "keyphrase": [
+      "warns",
+      "trade",
+      "talks"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 171,
+    "keyphrase": [
+      "trade",
+      "talks",
+      "china"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 172,
+    "keyphrase": [
+      "talks",
+      "china",
+      "past"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 173,
+    "keyphrase": [
+      "china",
+      "past",
+      "election"
+    ],
+    "pageRank": 0.0010316976
+  },
+  {
+    "index": 174,
+    "keyphrase": "russian",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 175,
+    "keyphrase": "banker",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 176,
+    "keyphrase": "million",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 177,
+    "keyphrase": "mansion",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 178,
+    "keyphrase": "foot",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 179,
+    "keyphrase": "yacht",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 180,
+    "keyphrase": [
+      "russian",
+      "banker"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 181,
+    "keyphrase": [
+      "banker",
+      "million"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 182,
+    "keyphrase": [
+      "million",
+      "mansion"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 183,
+    "keyphrase": [
+      "mansion",
+      "foot"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 184,
+    "keyphrase": [
+      "foot",
+      "yacht"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 185,
+    "keyphrase": [
+      "russian",
+      "banker",
+      "million"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 186,
+    "keyphrase": [
+      "banker",
+      "million",
+      "mansion"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 187,
+    "keyphrase": [
+      "million",
+      "mansion",
+      "foot"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 188,
+    "keyphrase": [
+      "mansion",
+      "foot",
+      "yacht"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 189,
+    "keyphrase": "tariffs",
+    "pageRank": 0.0007607282
+  },
+  {
+    "index": 190,
+    "keyphrase": "tuesday",
+    "pageRank": 0.0012963865
+  },
+  {
+    "index": 191,
+    "keyphrase": "briefing",
+    "pageRank": 0.0032488465
+  },
+  {
+    "index": 192,
+    "keyphrase": [
+      "tariffs",
+      "nato"
+    ],
+    "pageRank": 0.0007607282
+  },
+  {
+    "index": 193,
+    "keyphrase": [
+      "nato",
+      "philippines"
+    ],
+    "pageRank": 0.0007607282
+  },
+  {
+    "index": 194,
+    "keyphrase": [
+      "philippines",
+      "tuesday"
+    ],
+    "pageRank": 0.0007607282
+  },
+  {
+    "index": 195,
+    "keyphrase": [
+      "tuesday",
+      "briefing"
+    ],
+    "pageRank": 0.0012963865
+  },
+  {
+    "index": 196,
+    "keyphrase": [
+      "tariffs",
+      "nato",
+      "philippines"
+    ],
+    "pageRank": 0.0007607282
+  },
+  {
+    "index": 197,
+    "keyphrase": [
+      "nato",
+      "philippines",
+      "tuesday"
+    ],
+    "pageRank": 0.0007607282
+  },
+  {
+    "index": 198,
+    "keyphrase": [
+      "philippines",
+      "tuesday",
+      "briefing"
+    ],
+    "pageRank": 0.0007607282
+  },
+  {
+    "index": 199,
+    "keyphrase": "just",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 200,
+    "keyphrase": "isn",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 201,
+    "keyphrase": "working",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 202,
+    "keyphrase": "test",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 203,
+    "keyphrase": "scores",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 204,
+    "keyphrase": "cast",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 205,
+    "keyphrase": "doubt",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 206,
+    "keyphrase": "education",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 207,
+    "keyphrase": "efforts",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 208,
+    "keyphrase": [
+      "just",
+      "isn"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 209,
+    "keyphrase": [
+      "isn",
+      "working"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 210,
+    "keyphrase": [
+      "working",
+      "test"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 211,
+    "keyphrase": [
+      "test",
+      "scores"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 212,
+    "keyphrase": [
+      "scores",
+      "cast"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 213,
+    "keyphrase": [
+      "cast",
+      "doubt"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 214,
+    "keyphrase": [
+      "doubt",
+      "education"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 215,
+    "keyphrase": [
+      "education",
+      "efforts"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 216,
+    "keyphrase": [
+      "just",
+      "isn",
+      "working"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 217,
+    "keyphrase": [
+      "isn",
+      "working",
+      "test"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 218,
+    "keyphrase": [
+      "working",
+      "test",
+      "scores"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 219,
+    "keyphrase": [
+      "test",
+      "scores",
+      "cast"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 220,
+    "keyphrase": [
+      "scores",
+      "cast",
+      "doubt"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 221,
+    "keyphrase": [
+      "cast",
+      "doubt",
+      "education"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 222,
+    "keyphrase": [
+      "doubt",
+      "education",
+      "efforts"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 223,
+    "keyphrase": "market",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 224,
+    "keyphrase": "remains",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 225,
+    "keyphrase": "strong",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 226,
+    "keyphrase": "castles",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 227,
+    "keyphrase": "country",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 228,
+    "keyphrase": "homes",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 229,
+    "keyphrase": "scotland",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 230,
+    "keyphrase": [
+      "market",
+      "remains"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 231,
+    "keyphrase": [
+      "remains",
+      "strong"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 232,
+    "keyphrase": [
+      "strong",
+      "castles"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 233,
+    "keyphrase": [
+      "castles",
+      "country"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 234,
+    "keyphrase": [
+      "country",
+      "homes"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 235,
+    "keyphrase": [
+      "homes",
+      "scotland"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 236,
+    "keyphrase": [
+      "market",
+      "remains",
+      "strong"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 237,
+    "keyphrase": [
+      "remains",
+      "strong",
+      "castles"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 238,
+    "keyphrase": [
+      "strong",
+      "castles",
+      "country"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 239,
+    "keyphrase": [
+      "castles",
+      "country",
+      "homes"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 240,
+    "keyphrase": [
+      "country",
+      "homes",
+      "scotland"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 241,
+    "keyphrase": [
+      "briefing",
+      "boris"
+    ],
+    "pageRank": 0.000833935
+  },
+  {
+    "index": 242,
+    "keyphrase": [
+      "johnson",
+      "nato"
+    ],
+    "pageRank": 0.000833935
+  },
+  {
+    "index": 243,
+    "keyphrase": [
+      "nato",
+      "china"
+    ],
+    "pageRank": 0.000833935
+  },
+  {
+    "index": 244,
+    "keyphrase": [
+      "tuesday",
+      "briefing",
+      "boris"
+    ],
+    "pageRank": 0.000833935
+  },
+  {
+    "index": 245,
+    "keyphrase": [
+      "briefing",
+      "boris",
+      "johnson"
+    ],
+    "pageRank": 0.000833935
+  },
+  {
+    "index": 246,
+    "keyphrase": [
+      "boris",
+      "johnson",
+      "nato"
+    ],
+    "pageRank": 0.000833935
+  },
+  {
+    "index": 247,
+    "keyphrase": [
+      "johnson",
+      "nato",
+      "china"
+    ],
+    "pageRank": 0.000833935
+  },
+  {
+    "index": 248,
+    "keyphrase": "russia",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 249,
+    "keyphrase": "updated",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 250,
+    "keyphrase": "law",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 251,
+    "keyphrase": "restrictions",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 252,
+    "keyphrase": "freedom",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 253,
+    "keyphrase": "speech",
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 254,
+    "keyphrase": [
+      "russia",
+      "updated"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 255,
+    "keyphrase": [
+      "updated",
+      "law"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 256,
+    "keyphrase": [
+      "law",
+      "new"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 257,
+    "keyphrase": [
+      "new",
+      "restrictions"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 258,
+    "keyphrase": [
+      "restrictions",
+      "freedom"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 259,
+    "keyphrase": [
+      "freedom",
+      "speech"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 260,
+    "keyphrase": [
+      "russia",
+      "updated",
+      "law"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 261,
+    "keyphrase": [
+      "updated",
+      "law",
+      "new"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 262,
+    "keyphrase": [
+      "law",
+      "new",
+      "restrictions"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 263,
+    "keyphrase": [
+      "new",
+      "restrictions",
+      "freedom"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 264,
+    "keyphrase": [
+      "restrictions",
+      "freedom",
+      "speech"
+    ],
+    "pageRank": 0.0010993136
+  },
+  {
+    "index": 265,
+    "keyphrase": "airstrike",
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 266,
+    "keyphrase": "artillery",
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 267,
+    "keyphrase": "shelling",
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 268,
+    "keyphrase": "kill",
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 269,
+    "keyphrase": "civilians",
+    "pageRank": 0.0018909889
+  },
+  {
+    "index": 270,
+    "keyphrase": "syrian",
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 271,
+    "keyphrase": "towns",
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 272,
+    "keyphrase": [
+      "airstrike",
+      "artillery"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 273,
+    "keyphrase": [
+      "artillery",
+      "shelling"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 274,
+    "keyphrase": [
+      "shelling",
+      "kill"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 275,
+    "keyphrase": [
+      "kill",
+      "civilians"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 276,
+    "keyphrase": [
+      "civilians",
+      "syrian"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 277,
+    "keyphrase": [
+      "syrian",
+      "towns"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 278,
+    "keyphrase": [
+      "airstrike",
+      "artillery",
+      "shelling"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 279,
+    "keyphrase": [
+      "artillery",
+      "shelling",
+      "kill"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 280,
+    "keyphrase": [
+      "shelling",
+      "kill",
+      "civilians"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 281,
+    "keyphrase": [
+      "kill",
+      "civilians",
+      "syrian"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 282,
+    "keyphrase": [
+      "civilians",
+      "syrian",
+      "towns"
+    ],
+    "pageRank": 0.0011045927
+  },
+  {
+    "index": 283,
+    "keyphrase": "year",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 284,
+    "keyphrase": "old",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 285,
+    "keyphrase": "siberian",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 286,
+    "keyphrase": "puppy",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 287,
+    "keyphrase": "dog",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 288,
+    "keyphrase": "wolf",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 289,
+    "keyphrase": [
+      "year",
+      "old"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 290,
+    "keyphrase": [
+      "old",
+      "siberian"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 291,
+    "keyphrase": [
+      "siberian",
+      "puppy"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 292,
+    "keyphrase": [
+      "puppy",
+      "dog"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 293,
+    "keyphrase": [
+      "dog",
+      "wolf"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 294,
+    "keyphrase": [
+      "year",
+      "old",
+      "siberian"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 295,
+    "keyphrase": [
+      "old",
+      "siberian",
+      "puppy"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 296,
+    "keyphrase": [
+      "siberian",
+      "puppy",
+      "dog"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 297,
+    "keyphrase": [
+      "puppy",
+      "dog",
+      "wolf"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 298,
+    "keyphrase": "dead",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 299,
+    "keyphrase": "whale",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 300,
+    "keyphrase": "pounds",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 301,
+    "keyphrase": "debris",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 302,
+    "keyphrase": "inside",
+    "pageRank": 0.0020197966
+  },
+  {
+    "index": 303,
+    "keyphrase": "grim",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 304,
+    "keyphrase": "reminder",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 305,
+    "keyphrase": "ocean",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 306,
+    "keyphrase": "trash",
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 307,
+    "keyphrase": [
+      "dead",
+      "whale"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 308,
+    "keyphrase": [
+      "whale",
+      "pounds"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 309,
+    "keyphrase": [
+      "pounds",
+      "debris"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 310,
+    "keyphrase": [
+      "debris",
+      "inside"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 311,
+    "keyphrase": [
+      "inside",
+      "grim"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 312,
+    "keyphrase": [
+      "grim",
+      "reminder"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 313,
+    "keyphrase": [
+      "reminder",
+      "ocean"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 314,
+    "keyphrase": [
+      "ocean",
+      "trash"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 315,
+    "keyphrase": [
+      "dead",
+      "whale",
+      "pounds"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 316,
+    "keyphrase": [
+      "whale",
+      "pounds",
+      "debris"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 317,
+    "keyphrase": [
+      "pounds",
+      "debris",
+      "inside"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 318,
+    "keyphrase": [
+      "debris",
+      "inside",
+      "grim"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 319,
+    "keyphrase": [
+      "inside",
+      "grim",
+      "reminder"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 320,
+    "keyphrase": [
+      "grim",
+      "reminder",
+      "ocean"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 321,
+    "keyphrase": [
+      "reminder",
+      "ocean",
+      "trash"
+    ],
+    "pageRank": 0.0011446435
+  },
+  {
+    "index": 322,
+    "keyphrase": "fighting",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 323,
+    "keyphrase": "extradition",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 324,
+    "keyphrase": "huawei",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 325,
+    "keyphrase": "executive",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 326,
+    "keyphrase": "writes",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 327,
+    "keyphrase": "moments",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 328,
+    "keyphrase": "fear",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 329,
+    "keyphrase": [
+      "fighting",
+      "extradition"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 330,
+    "keyphrase": [
+      "extradition",
+      "huawei"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 331,
+    "keyphrase": [
+      "huawei",
+      "executive"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 332,
+    "keyphrase": [
+      "executive",
+      "writes"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 333,
+    "keyphrase": [
+      "writes",
+      "moments"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 334,
+    "keyphrase": [
+      "moments",
+      "fear"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 335,
+    "keyphrase": [
+      "fighting",
+      "extradition",
+      "huawei"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 336,
+    "keyphrase": [
+      "extradition",
+      "huawei",
+      "executive"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 337,
+    "keyphrase": [
+      "huawei",
+      "executive",
+      "writes"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 338,
+    "keyphrase": [
+      "executive",
+      "writes",
+      "moments"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 339,
+    "keyphrase": [
+      "writes",
+      "moments",
+      "fear"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 340,
+    "keyphrase": "activist",
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 341,
+    "keyphrase": "hints",
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 342,
+    "keyphrase": "changes",
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 343,
+    "keyphrase": "stays",
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 344,
+    "keyphrase": "cuba",
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 345,
+    "keyphrase": [
+      "activist",
+      "case"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 346,
+    "keyphrase": [
+      "case",
+      "hints"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 347,
+    "keyphrase": [
+      "hints",
+      "changes"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 348,
+    "keyphrase": [
+      "changes",
+      "stays"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 349,
+    "keyphrase": [
+      "stays",
+      "cuba"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 350,
+    "keyphrase": [
+      "activist",
+      "case",
+      "hints"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 351,
+    "keyphrase": [
+      "case",
+      "hints",
+      "changes"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 352,
+    "keyphrase": [
+      "hints",
+      "changes",
+      "stays"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 353,
+    "keyphrase": [
+      "changes",
+      "stays",
+      "cuba"
+    ],
+    "pageRank": 0.0010474435
+  },
+  {
+    "index": 354,
+    "keyphrase": "london",
+    "pageRank": 0.0034368257
+  },
+  {
+    "index": 355,
+    "keyphrase": "bridge",
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 356,
+    "keyphrase": "attack",
+    "pageRank": 0.0025862663
+  },
+  {
+    "index": 357,
+    "keyphrase": "victims",
+    "pageRank": 0.0019165908
+  },
+  {
+    "index": 358,
+    "keyphrase": "advocates",
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 359,
+    "keyphrase": "prisoner",
+    "pageRank": 0.0018063551
+  },
+  {
+    "index": 360,
+    "keyphrase": "rehabilitation",
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 361,
+    "keyphrase": [
+      "london",
+      "bridge"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 362,
+    "keyphrase": [
+      "bridge",
+      "attack"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 363,
+    "keyphrase": [
+      "attack",
+      "victims"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 364,
+    "keyphrase": [
+      "victims",
+      "advocates"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 365,
+    "keyphrase": [
+      "advocates",
+      "prisoner"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 366,
+    "keyphrase": [
+      "prisoner",
+      "rehabilitation"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 367,
+    "keyphrase": [
+      "london",
+      "bridge",
+      "attack"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 368,
+    "keyphrase": [
+      "bridge",
+      "attack",
+      "victims"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 369,
+    "keyphrase": [
+      "attack",
+      "victims",
+      "advocates"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 370,
+    "keyphrase": [
+      "victims",
+      "advocates",
+      "prisoner"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 371,
+    "keyphrase": [
+      "advocates",
+      "prisoner",
+      "rehabilitation"
+    ],
+    "pageRank": 0.0010252354
+  },
+  {
+    "index": 372,
+    "keyphrase": "hits",
+    "pageRank": 0.001624997
+  },
+  {
+    "index": 373,
+    "keyphrase": "hong",
+    "pageRank": 0.0023189208
+  },
+  {
+    "index": 374,
+    "keyphrase": "kong",
+    "pageRank": 0.0023189208
+  },
+  {
+    "index": 375,
+    "keyphrase": "symbolic",
+    "pageRank": 0.000726102
+  },
+  {
+    "index": 376,
+    "keyphrase": [
+      "china",
+      "hits"
+    ],
+    "pageRank": 0.000726102
+  },
+  {
+    "index": 377,
+    "keyphrase": [
+      "hits",
+      "hong"
+    ],
+    "pageRank": 0.000726102
+  },
+  {
+    "index": 378,
+    "keyphrase": [
+      "hong",
+      "kong"
+    ],
+    "pageRank": 0.0023189208
+  },
+  {
+    "index": 379,
+    "keyphrase": [
+      "kong",
+      "symbolic"
+    ],
+    "pageRank": 0.000726102
+  },
+  {
+    "index": 380,
+    "keyphrase": [
+      "china",
+      "hits",
+      "hong"
+    ],
+    "pageRank": 0.000726102
+  },
+  {
+    "index": 381,
+    "keyphrase": [
+      "hits",
+      "hong",
+      "kong"
+    ],
+    "pageRank": 0.000726102
+  },
+  {
+    "index": 382,
+    "keyphrase": [
+      "hong",
+      "kong",
+      "symbolic"
+    ],
+    "pageRank": 0.000726102
+  },
+  {
+    "index": 383,
+    "keyphrase": "democrats",
+    "pageRank": 0.0007048449
+  },
+  {
+    "index": 384,
+    "keyphrase": "charles",
+    "pageRank": 0.0015045719
+  },
+  {
+    "index": 385,
+    "keyphrase": "monday",
+    "pageRank": 0.0021578575
+  },
+  {
+    "index": 386,
+    "keyphrase": [
+      "democrats",
+      "prince"
+    ],
+    "pageRank": 0.0007048449
+  },
+  {
+    "index": 387,
+    "keyphrase": [
+      "prince",
+      "charles"
+    ],
+    "pageRank": 0.0015045719
+  },
+  {
+    "index": 388,
+    "keyphrase": [
+      "charles",
+      "monday"
+    ],
+    "pageRank": 0.0007048449
+  },
+  {
+    "index": 389,
+    "keyphrase": [
+      "monday",
+      "briefing"
+    ],
+    "pageRank": 0.0021578575
+  },
+  {
+    "index": 390,
+    "keyphrase": [
+      "democrats",
+      "prince",
+      "charles"
+    ],
+    "pageRank": 0.0007048449
+  },
+  {
+    "index": 391,
+    "keyphrase": [
+      "prince",
+      "charles",
+      "monday"
+    ],
+    "pageRank": 0.0007048449
+  },
+  {
+    "index": 392,
+    "keyphrase": [
+      "charles",
+      "monday",
+      "briefing"
+    ],
+    "pageRank": 0.0007048449
+  },
+  {
+    "index": 393,
+    "keyphrase": "incredible",
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 394,
+    "keyphrase": "story",
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 395,
+    "keyphrase": "survival",
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 396,
+    "keyphrase": "woman",
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 397,
+    "keyphrase": "days",
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 398,
+    "keyphrase": [
+      "incredible",
+      "story"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 399,
+    "keyphrase": [
+      "story",
+      "survival"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 400,
+    "keyphrase": [
+      "survival",
+      "woman"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 401,
+    "keyphrase": [
+      "woman",
+      "rescued"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 402,
+    "keyphrase": [
+      "rescued",
+      "days"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 403,
+    "keyphrase": [
+      "days",
+      "outback"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 404,
+    "keyphrase": [
+      "incredible",
+      "story",
+      "survival"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 405,
+    "keyphrase": [
+      "story",
+      "survival",
+      "woman"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 406,
+    "keyphrase": [
+      "survival",
+      "woman",
+      "rescued"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 407,
+    "keyphrase": [
+      "woman",
+      "rescued",
+      "days"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 408,
+    "keyphrase": [
+      "rescued",
+      "days",
+      "outback"
+    ],
+    "pageRank": 0.001096161
+  },
+  {
+    "index": 409,
+    "keyphrase": "readies",
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 410,
+    "keyphrase": "birthday",
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 411,
+    "keyphrase": "party",
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 412,
+    "keyphrase": "low",
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 413,
+    "keyphrase": "key",
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 414,
+    "keyphrase": "celebrations",
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 415,
+    "keyphrase": [
+      "nato",
+      "readies"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 416,
+    "keyphrase": [
+      "readies",
+      "birthday"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 417,
+    "keyphrase": [
+      "birthday",
+      "party"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 418,
+    "keyphrase": [
+      "party",
+      "low"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 419,
+    "keyphrase": [
+      "low",
+      "key"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 420,
+    "keyphrase": [
+      "key",
+      "celebrations"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 421,
+    "keyphrase": [
+      "nato",
+      "readies",
+      "birthday"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 422,
+    "keyphrase": [
+      "readies",
+      "birthday",
+      "party"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 423,
+    "keyphrase": [
+      "birthday",
+      "party",
+      "low"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 424,
+    "keyphrase": [
+      "party",
+      "low",
+      "key"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 425,
+    "keyphrase": [
+      "low",
+      "key",
+      "celebrations"
+    ],
+    "pageRank": 0.001074663
+  },
+  {
+    "index": 426,
+    "keyphrase": "isis",
+    "pageRank": 0.0019359468
+  },
+  {
+    "index": 427,
+    "keyphrase": "losing",
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 428,
+    "keyphrase": "afghan",
+    "pageRank": 0.0018388676
+  },
+  {
+    "index": 429,
+    "keyphrase": "territory",
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 430,
+    "keyphrase": "means",
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 431,
+    "keyphrase": "little",
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 432,
+    "keyphrase": [
+      "isis",
+      "losing"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 433,
+    "keyphrase": [
+      "losing",
+      "afghan"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 434,
+    "keyphrase": [
+      "afghan",
+      "territory"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 435,
+    "keyphrase": [
+      "territory",
+      "means"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 436,
+    "keyphrase": [
+      "means",
+      "little"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 437,
+    "keyphrase": [
+      "little",
+      "victims"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 438,
+    "keyphrase": [
+      "isis",
+      "losing",
+      "afghan"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 439,
+    "keyphrase": [
+      "losing",
+      "afghan",
+      "territory"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 440,
+    "keyphrase": [
+      "afghan",
+      "territory",
+      "means"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 441,
+    "keyphrase": [
+      "territory",
+      "means",
+      "little"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 442,
+    "keyphrase": [
+      "means",
+      "little",
+      "victims"
+    ],
+    "pageRank": 0.0010522306
+  },
+  {
+    "index": 443,
+    "keyphrase": "manila",
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 444,
+    "keyphrase": "airport",
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 445,
+    "keyphrase": "shut",
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 446,
+    "keyphrase": [
+      "manila",
+      "airport"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 447,
+    "keyphrase": [
+      "airport",
+      "shut"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 448,
+    "keyphrase": [
+      "shut",
+      "typhoon"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 449,
+    "keyphrase": [
+      "kammuri",
+      "hits"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 450,
+    "keyphrase": [
+      "hits",
+      "philippines"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 451,
+    "keyphrase": [
+      "manila",
+      "airport",
+      "shut"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 452,
+    "keyphrase": [
+      "airport",
+      "shut",
+      "typhoon"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 453,
+    "keyphrase": [
+      "shut",
+      "typhoon",
+      "kammuri"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 454,
+    "keyphrase": [
+      "typhoon",
+      "kammuri",
+      "hits"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 455,
+    "keyphrase": [
+      "kammuri",
+      "hits",
+      "philippines"
+    ],
+    "pageRank": 0.0010574982
+  },
+  {
+    "index": 456,
+    "keyphrase": "malta",
+    "pageRank": 0.0025810367
+  },
+  {
+    "index": 457,
+    "keyphrase": "northern",
+    "pageRank": 0.0016872137
+  },
+  {
+    "index": 458,
+    "keyphrase": "ireland",
+    "pageRank": 0.0016872137
+  },
+  {
+    "index": 459,
+    "keyphrase": [
+      "briefing",
+      "malta"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 460,
+    "keyphrase": [
+      "malta",
+      "prince"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 461,
+    "keyphrase": [
+      "andrew",
+      "northern"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 462,
+    "keyphrase": [
+      "northern",
+      "ireland"
+    ],
+    "pageRank": 0.0016872137
+  },
+  {
+    "index": 463,
+    "keyphrase": [
+      "monday",
+      "briefing",
+      "malta"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 464,
+    "keyphrase": [
+      "briefing",
+      "malta",
+      "prince"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 465,
+    "keyphrase": [
+      "malta",
+      "prince",
+      "andrew"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 466,
+    "keyphrase": [
+      "prince",
+      "andrew",
+      "northern"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 467,
+    "keyphrase": [
+      "andrew",
+      "northern",
+      "ireland"
+    ],
+    "pageRank": 0.000934343
+  },
+  {
+    "index": 468,
+    "keyphrase": "people",
+    "pageRank": 0.0019433743
+  },
+  {
+    "index": 469,
+    "keyphrase": "killed",
+    "pageRank": 0.0017264175
+  },
+  {
+    "index": 470,
+    "keyphrase": "burkina",
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 471,
+    "keyphrase": "faso",
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 472,
+    "keyphrase": "church",
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 473,
+    "keyphrase": [
+      "people",
+      "killed"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 474,
+    "keyphrase": [
+      "killed",
+      "burkina"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 475,
+    "keyphrase": [
+      "burkina",
+      "faso"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 476,
+    "keyphrase": [
+      "faso",
+      "church"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 477,
+    "keyphrase": [
+      "church",
+      "attack"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 478,
+    "keyphrase": [
+      "people",
+      "killed",
+      "burkina"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 479,
+    "keyphrase": [
+      "killed",
+      "burkina",
+      "faso"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 480,
+    "keyphrase": [
+      "burkina",
+      "faso",
+      "church"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 481,
+    "keyphrase": [
+      "faso",
+      "church",
+      "attack"
+    ],
+    "pageRank": 0.0009393445
+  },
+  {
+    "index": 482,
+    "keyphrase": "leader",
+    "pageRank": 0.0018816792
+  },
+  {
+    "index": 483,
+    "keyphrase": "resign",
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 484,
+    "keyphrase": "murder",
+    "pageRank": 0.0018100431
+  },
+  {
+    "index": 485,
+    "keyphrase": "inquiry",
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 486,
+    "keyphrase": "widens",
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 487,
+    "keyphrase": [
+      "malta",
+      "leader"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 488,
+    "keyphrase": [
+      "leader",
+      "says"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 489,
+    "keyphrase": [
+      "says",
+      "resign"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 490,
+    "keyphrase": [
+      "resign",
+      "murder"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 491,
+    "keyphrase": [
+      "murder",
+      "inquiry"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 492,
+    "keyphrase": [
+      "inquiry",
+      "widens"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 493,
+    "keyphrase": [
+      "malta",
+      "leader",
+      "says"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 494,
+    "keyphrase": [
+      "leader",
+      "says",
+      "resign"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 495,
+    "keyphrase": [
+      "says",
+      "resign",
+      "murder"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 496,
+    "keyphrase": [
+      "resign",
+      "murder",
+      "inquiry"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 497,
+    "keyphrase": [
+      "murder",
+      "inquiry",
+      "widens"
+    ],
+    "pageRank": 0.0009825739
+  },
+  {
+    "index": 498,
+    "keyphrase": "suspects",
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 499,
+    "keyphrase": "mormon",
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 500,
+    "keyphrase": "family",
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 501,
+    "keyphrase": "killing",
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 502,
+    "keyphrase": "arrested",
+    "pageRank": 0.0019467766
+  },
+  {
+    "index": 503,
+    "keyphrase": "mexico",
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 504,
+    "keyphrase": [
+      "suspects",
+      "mormon"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 505,
+    "keyphrase": [
+      "mormon",
+      "family"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 506,
+    "keyphrase": [
+      "family",
+      "killing"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 507,
+    "keyphrase": [
+      "killing",
+      "arrested"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 508,
+    "keyphrase": [
+      "arrested",
+      "mexico"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 509,
+    "keyphrase": [
+      "suspects",
+      "mormon",
+      "family"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 510,
+    "keyphrase": [
+      "mormon",
+      "family",
+      "killing"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 511,
+    "keyphrase": [
+      "family",
+      "killing",
+      "arrested"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 512,
+    "keyphrase": [
+      "killing",
+      "arrested",
+      "mexico"
+    ],
+    "pageRank": 0.0010611948
+  },
+  {
+    "index": 513,
+    "keyphrase": "troubles",
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 514,
+    "keyphrase": "grow",
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 515,
+    "keyphrase": "mexicans",
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 516,
+    "keyphrase": "faith",
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 517,
+    "keyphrase": "president",
+    "pageRank": 0.0026243864
+  },
+  {
+    "index": 518,
+    "keyphrase": [
+      "troubles",
+      "grow"
+    ],
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 519,
+    "keyphrase": [
+      "grow",
+      "mexicans"
+    ],
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 520,
+    "keyphrase": [
+      "mexicans",
+      "faith"
+    ],
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 521,
+    "keyphrase": [
+      "faith",
+      "president"
+    ],
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 522,
+    "keyphrase": [
+      "troubles",
+      "grow",
+      "mexicans"
+    ],
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 523,
+    "keyphrase": [
+      "grow",
+      "mexicans",
+      "faith"
+    ],
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 524,
+    "keyphrase": [
+      "mexicans",
+      "faith",
+      "president"
+    ],
+    "pageRank": 0.0010257151
+  },
+  {
+    "index": 525,
+    "keyphrase": "fentanyl",
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 526,
+    "keyphrase": "julian",
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 527,
+    "keyphrase": "assange",
+    "pageRank": 0.0017755079
+  },
+  {
+    "index": 528,
+    "keyphrase": [
+      "kong",
+      "fentanyl"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 529,
+    "keyphrase": [
+      "fentanyl",
+      "china"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 530,
+    "keyphrase": [
+      "china",
+      "julian"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 531,
+    "keyphrase": [
+      "julian",
+      "assange"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 532,
+    "keyphrase": [
+      "assange",
+      "monday"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 533,
+    "keyphrase": [
+      "hong",
+      "kong",
+      "fentanyl"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 534,
+    "keyphrase": [
+      "kong",
+      "fentanyl",
+      "china"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 535,
+    "keyphrase": [
+      "fentanyl",
+      "china",
+      "julian"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 536,
+    "keyphrase": [
+      "china",
+      "julian",
+      "assange"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 537,
+    "keyphrase": [
+      "julian",
+      "assange",
+      "monday"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 538,
+    "keyphrase": [
+      "assange",
+      "monday",
+      "briefing"
+    ],
+    "pageRank": 0.0010541404
+  },
+  {
+    "index": 539,
+    "keyphrase": "brutal",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 540,
+    "keyphrase": "crackdown",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 541,
+    "keyphrase": "iran",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 542,
+    "keyphrase": "convulsed",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 543,
+    "keyphrase": "worst",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 544,
+    "keyphrase": "unrest",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 545,
+    "keyphrase": "years",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 546,
+    "keyphrase": [
+      "brutal",
+      "crackdown"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 547,
+    "keyphrase": [
+      "crackdown",
+      "iran"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 548,
+    "keyphrase": [
+      "iran",
+      "convulsed"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 549,
+    "keyphrase": [
+      "convulsed",
+      "worst"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 550,
+    "keyphrase": [
+      "worst",
+      "unrest"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 551,
+    "keyphrase": [
+      "unrest",
+      "years"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 552,
+    "keyphrase": [
+      "brutal",
+      "crackdown",
+      "iran"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 553,
+    "keyphrase": [
+      "crackdown",
+      "iran",
+      "convulsed"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 554,
+    "keyphrase": [
+      "iran",
+      "convulsed",
+      "worst"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 555,
+    "keyphrase": [
+      "convulsed",
+      "worst",
+      "unrest"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 556,
+    "keyphrase": [
+      "worst",
+      "unrest",
+      "years"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 557,
+    "keyphrase": "irish",
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 558,
+    "keyphrase": "soldier",
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 559,
+    "keyphrase": "married",
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 560,
+    "keyphrase": "fighter",
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 561,
+    "keyphrase": [
+      "irish",
+      "ex"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 562,
+    "keyphrase": [
+      "ex",
+      "soldier"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 563,
+    "keyphrase": [
+      "soldier",
+      "married"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 564,
+    "keyphrase": [
+      "married",
+      "isis"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 565,
+    "keyphrase": [
+      "isis",
+      "fighter"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 566,
+    "keyphrase": [
+      "fighter",
+      "arrested"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 567,
+    "keyphrase": [
+      "irish",
+      "ex",
+      "soldier"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 568,
+    "keyphrase": [
+      "ex",
+      "soldier",
+      "married"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 569,
+    "keyphrase": [
+      "soldier",
+      "married",
+      "isis"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 570,
+    "keyphrase": [
+      "married",
+      "isis",
+      "fighter"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 571,
+    "keyphrase": [
+      "isis",
+      "fighter",
+      "arrested"
+    ],
+    "pageRank": 0.0010445914
+  },
+  {
+    "index": 572,
+    "keyphrase": "aiming",
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 573,
+    "keyphrase": "break",
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 574,
+    "keyphrase": "detained",
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 575,
+    "keyphrase": "writer",
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 576,
+    "keyphrase": "lawyers",
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 577,
+    "keyphrase": "say",
+    "pageRank": 0.0018890759
+  },
+  {
+    "index": 578,
+    "keyphrase": [
+      "china",
+      "aiming"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 579,
+    "keyphrase": [
+      "aiming",
+      "break"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 580,
+    "keyphrase": [
+      "break",
+      "detained"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 581,
+    "keyphrase": [
+      "detained",
+      "australian"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 582,
+    "keyphrase": [
+      "australian",
+      "writer"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 583,
+    "keyphrase": [
+      "writer",
+      "lawyers"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 584,
+    "keyphrase": [
+      "lawyers",
+      "say"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 585,
+    "keyphrase": [
+      "china",
+      "aiming",
+      "break"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 586,
+    "keyphrase": [
+      "aiming",
+      "break",
+      "detained"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 587,
+    "keyphrase": [
+      "break",
+      "detained",
+      "australian"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 588,
+    "keyphrase": [
+      "detained",
+      "australian",
+      "writer"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 589,
+    "keyphrase": [
+      "australian",
+      "writer",
+      "lawyers"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 590,
+    "keyphrase": [
+      "writer",
+      "lawyers",
+      "say"
+    ],
+    "pageRank": 0.0011018184
+  },
+  {
+    "index": 591,
+    "keyphrase": "scandal",
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 592,
+    "keyphrase": "emerges",
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 593,
+    "keyphrase": "monarch",
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 594,
+    "keyphrase": "waiting",
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 595,
+    "keyphrase": [
+      "andrew",
+      "scandal"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 596,
+    "keyphrase": [
+      "scandal",
+      "prince"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 597,
+    "keyphrase": [
+      "charles",
+      "emerges"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 598,
+    "keyphrase": [
+      "emerges",
+      "monarch"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 599,
+    "keyphrase": [
+      "monarch",
+      "waiting"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 600,
+    "keyphrase": [
+      "prince",
+      "andrew",
+      "scandal"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 601,
+    "keyphrase": [
+      "andrew",
+      "scandal",
+      "prince"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 602,
+    "keyphrase": [
+      "scandal",
+      "prince",
+      "charles"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 603,
+    "keyphrase": [
+      "prince",
+      "charles",
+      "emerges"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 604,
+    "keyphrase": [
+      "charles",
+      "emerges",
+      "monarch"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 605,
+    "keyphrase": [
+      "emerges",
+      "monarch",
+      "waiting"
+    ],
+    "pageRank": 0.0010484738
+  },
+  {
+    "index": 606,
+    "keyphrase": "drone",
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 607,
+    "keyphrase": "officials",
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 608,
+    "keyphrase": [
+      "drone",
+      "killed"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 609,
+    "keyphrase": [
+      "killed",
+      "afghan"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 610,
+    "keyphrase": [
+      "afghan",
+      "civilians"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 611,
+    "keyphrase": [
+      "civilians",
+      "officials"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 612,
+    "keyphrase": [
+      "officials",
+      "say"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 613,
+    "keyphrase": [
+      "drone",
+      "killed",
+      "afghan"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 614,
+    "keyphrase": [
+      "killed",
+      "afghan",
+      "civilians"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 615,
+    "keyphrase": [
+      "afghan",
+      "civilians",
+      "officials"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 616,
+    "keyphrase": [
+      "civilians",
+      "officials",
+      "say"
+    ],
+    "pageRank": 0.0009463232
+  },
+  {
+    "index": 617,
+    "keyphrase": "testify",
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 618,
+    "keyphrase": "recorded",
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 619,
+    "keyphrase": "embassy",
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 620,
+    "keyphrase": [
+      "assange",
+      "testify"
+    ],
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 621,
+    "keyphrase": [
+      "testify",
+      "recorded"
+    ],
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 622,
+    "keyphrase": [
+      "recorded",
+      "embassy"
+    ],
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 623,
+    "keyphrase": [
+      "embassy",
+      "london"
+    ],
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 624,
+    "keyphrase": [
+      "assange",
+      "testify",
+      "recorded"
+    ],
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 625,
+    "keyphrase": [
+      "testify",
+      "recorded",
+      "embassy"
+    ],
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 626,
+    "keyphrase": [
+      "recorded",
+      "embassy",
+      "london"
+    ],
+    "pageRank": 0.0008751361
+  },
+  {
+    "index": 627,
+    "keyphrase": "wanted",
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 628,
+    "keyphrase": "die",
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 629,
+    "keyphrase": "confronts",
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 630,
+    "keyphrase": "suicide",
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 631,
+    "keyphrase": "crisis",
+    "pageRank": 0.0019319825
+  },
+  {
+    "index": 632,
+    "keyphrase": [
+      "wanted",
+      "die"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 633,
+    "keyphrase": [
+      "die",
+      "northern"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 634,
+    "keyphrase": [
+      "ireland",
+      "confronts"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 635,
+    "keyphrase": [
+      "confronts",
+      "suicide"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 636,
+    "keyphrase": [
+      "suicide",
+      "crisis"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 637,
+    "keyphrase": [
+      "wanted",
+      "die",
+      "northern"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 638,
+    "keyphrase": [
+      "die",
+      "northern",
+      "ireland"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 639,
+    "keyphrase": [
+      "northern",
+      "ireland",
+      "confronts"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 640,
+    "keyphrase": [
+      "ireland",
+      "confronts",
+      "suicide"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 641,
+    "keyphrase": [
+      "confronts",
+      "suicide",
+      "crisis"
+    ],
+    "pageRank": 0.0010040818
+  },
+  {
+    "index": 642,
+    "keyphrase": "police",
+    "pageRank": 0.0018711231
+  },
+  {
+    "index": 643,
+    "keyphrase": "tear",
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 644,
+    "keyphrase": "gas",
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 645,
+    "keyphrase": "protesters",
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 646,
+    "keyphrase": "return",
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 647,
+    "keyphrase": "force",
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 648,
+    "keyphrase": [
+      "kong",
+      "police"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 649,
+    "keyphrase": [
+      "police",
+      "tear"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 650,
+    "keyphrase": [
+      "tear",
+      "gas"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 651,
+    "keyphrase": [
+      "gas",
+      "protesters"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 652,
+    "keyphrase": [
+      "protesters",
+      "return"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 653,
+    "keyphrase": [
+      "return",
+      "force"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 654,
+    "keyphrase": [
+      "hong",
+      "kong",
+      "police"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 655,
+    "keyphrase": [
+      "kong",
+      "police",
+      "tear"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 656,
+    "keyphrase": [
+      "police",
+      "tear",
+      "gas"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 657,
+    "keyphrase": [
+      "tear",
+      "gas",
+      "protesters"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 658,
+    "keyphrase": [
+      "gas",
+      "protesters",
+      "return"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 659,
+    "keyphrase": [
+      "protesters",
+      "return",
+      "force"
+    ],
+    "pageRank": 0.0010726905
+  },
+  {
+    "index": 660,
+    "keyphrase": "leonardo",
+    "pageRank": 0.001612534
+  },
+  {
+    "index": 661,
+    "keyphrase": "dicaprio",
+    "pageRank": 0.001612534
+  },
+  {
+    "index": 662,
+    "keyphrase": "responds",
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 663,
+    "keyphrase": "brazil",
+    "pageRank": 0.001612534
+  },
+  {
+    "index": 664,
+    "keyphrase": "amazon",
+    "pageRank": 0.001612534
+  },
+  {
+    "index": 665,
+    "keyphrase": "fires",
+    "pageRank": 0.001612534
+  },
+  {
+    "index": 666,
+    "keyphrase": [
+      "leonardo",
+      "dicaprio"
+    ],
+    "pageRank": 0.001612534
+  },
+  {
+    "index": 667,
+    "keyphrase": [
+      "dicaprio",
+      "responds"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 668,
+    "keyphrase": [
+      "responds",
+      "brazil"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 669,
+    "keyphrase": [
+      "brazil",
+      "president"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 670,
+    "keyphrase": [
+      "president",
+      "amazon"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 671,
+    "keyphrase": [
+      "amazon",
+      "fires"
+    ],
+    "pageRank": 0.001612534
+  },
+  {
+    "index": 672,
+    "keyphrase": [
+      "leonardo",
+      "dicaprio",
+      "responds"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 673,
+    "keyphrase": [
+      "dicaprio",
+      "responds",
+      "brazil"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 674,
+    "keyphrase": [
+      "responds",
+      "brazil",
+      "president"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 675,
+    "keyphrase": [
+      "brazil",
+      "president",
+      "amazon"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 676,
+    "keyphrase": [
+      "president",
+      "amazon",
+      "fires"
+    ],
+    "pageRank": 0.0009802314
+  },
+  {
+    "index": 677,
+    "keyphrase": "wealthy",
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 678,
+    "keyphrase": "businessman",
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 679,
+    "keyphrase": "charged",
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 680,
+    "keyphrase": "rocked",
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 681,
+    "keyphrase": [
+      "wealthy",
+      "businessman"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 682,
+    "keyphrase": [
+      "businessman",
+      "charged"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 683,
+    "keyphrase": [
+      "charged",
+      "murder"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 684,
+    "keyphrase": [
+      "murder",
+      "case"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 685,
+    "keyphrase": [
+      "case",
+      "rocked"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 686,
+    "keyphrase": [
+      "rocked",
+      "malta"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 687,
+    "keyphrase": [
+      "wealthy",
+      "businessman",
+      "charged"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 688,
+    "keyphrase": [
+      "businessman",
+      "charged",
+      "murder"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 689,
+    "keyphrase": [
+      "charged",
+      "murder",
+      "case"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 690,
+    "keyphrase": [
+      "murder",
+      "case",
+      "rocked"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 691,
+    "keyphrase": [
+      "case",
+      "rocked",
+      "malta"
+    ],
+    "pageRank": 0.0010327363
+  },
+  {
+    "index": 692,
+    "keyphrase": "spurs",
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 693,
+    "keyphrase": "heroism",
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 694,
+    "keyphrase": "questions",
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 695,
+    "keyphrase": "release",
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 696,
+    "keyphrase": [
+      "london",
+      "attack"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 697,
+    "keyphrase": [
+      "attack",
+      "spurs"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 698,
+    "keyphrase": [
+      "spurs",
+      "heroism"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 699,
+    "keyphrase": [
+      "heroism",
+      "questions"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 700,
+    "keyphrase": [
+      "questions",
+      "prisoner"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 701,
+    "keyphrase": [
+      "prisoner",
+      "release"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 702,
+    "keyphrase": [
+      "london",
+      "attack",
+      "spurs"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 703,
+    "keyphrase": [
+      "attack",
+      "spurs",
+      "heroism"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 704,
+    "keyphrase": [
+      "spurs",
+      "heroism",
+      "questions"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 705,
+    "keyphrase": [
+      "heroism",
+      "questions",
+      "prisoner"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 706,
+    "keyphrase": [
+      "questions",
+      "prisoner",
+      "release"
+    ],
+    "pageRank": 0.001037096
+  },
+  {
+    "index": 707,
+    "keyphrase": "dutch",
+    "pageRank": 0.001961522
+  },
+  {
+    "index": 708,
+    "keyphrase": "arrest",
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 709,
+    "keyphrase": "suspect",
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 710,
+    "keyphrase": "stabbing",
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 711,
+    "keyphrase": "teens",
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 712,
+    "keyphrase": [
+      "dutch",
+      "police"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 713,
+    "keyphrase": [
+      "police",
+      "arrest"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 714,
+    "keyphrase": [
+      "arrest",
+      "suspect"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 715,
+    "keyphrase": [
+      "suspect",
+      "stabbing"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 716,
+    "keyphrase": [
+      "stabbing",
+      "teens"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 717,
+    "keyphrase": [
+      "dutch",
+      "police",
+      "arrest"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 718,
+    "keyphrase": [
+      "police",
+      "arrest",
+      "suspect"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 719,
+    "keyphrase": [
+      "arrest",
+      "suspect",
+      "stabbing"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 720,
+    "keyphrase": [
+      "suspect",
+      "stabbing",
+      "teens"
+    ],
+    "pageRank": 0.0009571633
+  },
+  {
+    "index": 721,
+    "keyphrase": "iraqi",
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 722,
+    "keyphrase": "prime",
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 723,
+    "keyphrase": "minister",
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 724,
+    "keyphrase": "resigns",
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 725,
+    "keyphrase": "deepening",
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 726,
+    "keyphrase": "political",
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 727,
+    "keyphrase": [
+      "iraqi",
+      "prime"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 728,
+    "keyphrase": [
+      "prime",
+      "minister"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 729,
+    "keyphrase": [
+      "minister",
+      "resigns"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 730,
+    "keyphrase": [
+      "resigns",
+      "deepening"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 731,
+    "keyphrase": [
+      "deepening",
+      "political"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 732,
+    "keyphrase": [
+      "political",
+      "crisis"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 733,
+    "keyphrase": [
+      "iraqi",
+      "prime",
+      "minister"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 734,
+    "keyphrase": [
+      "prime",
+      "minister",
+      "resigns"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 735,
+    "keyphrase": [
+      "minister",
+      "resigns",
+      "deepening"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 736,
+    "keyphrase": [
+      "resigns",
+      "deepening",
+      "political"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 737,
+    "keyphrase": [
+      "deepening",
+      "political",
+      "crisis"
+    ],
+    "pageRank": 0.0010887758
+  },
+  {
+    "index": 738,
+    "keyphrase": "albania",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 739,
+    "keyphrase": "quake",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 740,
+    "keyphrase": "rescues",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 741,
+    "keyphrase": "end",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 742,
+    "keyphrase": "toll",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 743,
+    "keyphrase": [
+      "albania",
+      "quake"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 744,
+    "keyphrase": [
+      "quake",
+      "rescues"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 745,
+    "keyphrase": [
+      "rescues",
+      "end"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 746,
+    "keyphrase": [
+      "end",
+      "toll"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 747,
+    "keyphrase": [
+      "albania",
+      "quake",
+      "rescues"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 748,
+    "keyphrase": [
+      "quake",
+      "rescues",
+      "end"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 749,
+    "keyphrase": [
+      "rescues",
+      "end",
+      "toll"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 750,
+    "keyphrase": "falsely",
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 751,
+    "keyphrase": "blames",
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 752,
+    "keyphrase": [
+      "brazil",
+      "leader"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 753,
+    "keyphrase": [
+      "leader",
+      "falsely"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 754,
+    "keyphrase": [
+      "falsely",
+      "blames"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 755,
+    "keyphrase": [
+      "blames",
+      "leonardo"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 756,
+    "keyphrase": [
+      "dicaprio",
+      "amazon"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 757,
+    "keyphrase": [
+      "brazil",
+      "leader",
+      "falsely"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 758,
+    "keyphrase": [
+      "leader",
+      "falsely",
+      "blames"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 759,
+    "keyphrase": [
+      "falsely",
+      "blames",
+      "leonardo"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 760,
+    "keyphrase": [
+      "blames",
+      "leonardo",
+      "dicaprio"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 761,
+    "keyphrase": [
+      "leonardo",
+      "dicaprio",
+      "amazon"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 762,
+    "keyphrase": [
+      "dicaprio",
+      "amazon",
+      "fires"
+    ],
+    "pageRank": 0.0010602803
+  },
+  {
+    "index": 763,
+    "keyphrase": "students",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 764,
+    "keyphrase": "fainting",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 765,
+    "keyphrase": "hunger",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 766,
+    "keyphrase": "venezuela",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 767,
+    "keyphrase": "failing",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 768,
+    "keyphrase": "school",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 769,
+    "keyphrase": [
+      "students",
+      "fainting"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 770,
+    "keyphrase": [
+      "fainting",
+      "hunger"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 771,
+    "keyphrase": [
+      "hunger",
+      "venezuela"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 772,
+    "keyphrase": [
+      "venezuela",
+      "failing"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 773,
+    "keyphrase": [
+      "failing",
+      "school"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 774,
+    "keyphrase": [
+      "students",
+      "fainting",
+      "hunger"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 775,
+    "keyphrase": [
+      "fainting",
+      "hunger",
+      "venezuela"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 776,
+    "keyphrase": [
+      "hunger",
+      "venezuela",
+      "failing"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 777,
+    "keyphrase": [
+      "venezuela",
+      "failing",
+      "school"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 778,
+    "keyphrase": "spain",
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 779,
+    "keyphrase": "leftist",
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 780,
+    "keyphrase": "outsiders",
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 781,
+    "keyphrase": "verge",
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 782,
+    "keyphrase": "getting",
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 783,
+    "keyphrase": [
+      "spain",
+      "leftist"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 784,
+    "keyphrase": [
+      "leftist",
+      "outsiders"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 785,
+    "keyphrase": [
+      "outsiders",
+      "verge"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 786,
+    "keyphrase": [
+      "verge",
+      "getting"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 787,
+    "keyphrase": [
+      "getting",
+      "inside"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 788,
+    "keyphrase": [
+      "spain",
+      "leftist",
+      "outsiders"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 789,
+    "keyphrase": [
+      "leftist",
+      "outsiders",
+      "verge"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 790,
+    "keyphrase": [
+      "outsiders",
+      "verge",
+      "getting"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 791,
+    "keyphrase": [
+      "verge",
+      "getting",
+      "inside"
+    ],
+    "pageRank": 0.0010318712
+  },
+  {
+    "index": 792,
+    "keyphrase": "anti",
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 793,
+    "keyphrase": "brexit",
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 794,
+    "keyphrase": "district",
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 795,
+    "keyphrase": "triumph",
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 796,
+    "keyphrase": [
+      "anti",
+      "brexit"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 797,
+    "keyphrase": [
+      "brexit",
+      "london"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 798,
+    "keyphrase": [
+      "london",
+      "district"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 799,
+    "keyphrase": [
+      "district",
+      "help"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 800,
+    "keyphrase": [
+      "help",
+      "boris"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 801,
+    "keyphrase": [
+      "johnson",
+      "triumph"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 802,
+    "keyphrase": [
+      "anti",
+      "brexit",
+      "london"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 803,
+    "keyphrase": [
+      "brexit",
+      "london",
+      "district"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 804,
+    "keyphrase": [
+      "london",
+      "district",
+      "help"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 805,
+    "keyphrase": [
+      "district",
+      "help",
+      "boris"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 806,
+    "keyphrase": [
+      "help",
+      "boris",
+      "johnson"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 807,
+    "keyphrase": [
+      "boris",
+      "johnson",
+      "triumph"
+    ],
+    "pageRank": 0.0010710335
+  },
+  {
+    "index": 808,
+    "keyphrase": "shmoo",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 809,
+    "keyphrase": "cake",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 810,
+    "keyphrase": "persians",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 811,
+    "keyphrase": "spudnuts",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 812,
+    "keyphrase": "touring",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 813,
+    "keyphrase": "canada",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 814,
+    "keyphrase": "regional",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 815,
+    "keyphrase": "cuisine",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 816,
+    "keyphrase": [
+      "shmoo",
+      "cake"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 817,
+    "keyphrase": [
+      "cake",
+      "persians"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 818,
+    "keyphrase": [
+      "persians",
+      "spudnuts"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 819,
+    "keyphrase": [
+      "spudnuts",
+      "touring"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 820,
+    "keyphrase": [
+      "touring",
+      "canada"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 821,
+    "keyphrase": [
+      "canada",
+      "regional"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 822,
+    "keyphrase": [
+      "regional",
+      "cuisine"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 823,
+    "keyphrase": [
+      "shmoo",
+      "cake",
+      "persians"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 824,
+    "keyphrase": [
+      "cake",
+      "persians",
+      "spudnuts"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 825,
+    "keyphrase": [
+      "persians",
+      "spudnuts",
+      "touring"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 826,
+    "keyphrase": [
+      "spudnuts",
+      "touring",
+      "canada"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 827,
+    "keyphrase": [
+      "touring",
+      "canada",
+      "regional"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 828,
+    "keyphrase": [
+      "canada",
+      "regional",
+      "cuisine"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 829,
+    "keyphrase": "suriname",
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 830,
+    "keyphrase": "convicted",
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 831,
+    "keyphrase": "killings",
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 832,
+    "keyphrase": [
+      "suriname",
+      "president"
+    ],
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 833,
+    "keyphrase": [
+      "president",
+      "convicted"
+    ],
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 834,
+    "keyphrase": [
+      "convicted",
+      "killings"
+    ],
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 835,
+    "keyphrase": [
+      "suriname",
+      "president",
+      "convicted"
+    ],
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 836,
+    "keyphrase": [
+      "president",
+      "convicted",
+      "killings"
+    ],
+    "pageRank": 0.0009163289
+  },
+  {
+    "index": 837,
+    "keyphrase": "young",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 838,
+    "keyphrase": "stabbed",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 839,
+    "keyphrase": "busy",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 840,
+    "keyphrase": "hague",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 841,
+    "keyphrase": "street",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 842,
+    "keyphrase": "setting",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 843,
+    "keyphrase": "alarm",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 844,
+    "keyphrase": "city",
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 845,
+    "keyphrase": [
+      "young",
+      "people"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 846,
+    "keyphrase": [
+      "people",
+      "stabbed"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 847,
+    "keyphrase": [
+      "stabbed",
+      "busy"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 848,
+    "keyphrase": [
+      "busy",
+      "hague"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 849,
+    "keyphrase": [
+      "hague",
+      "street"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 850,
+    "keyphrase": [
+      "street",
+      "setting"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 851,
+    "keyphrase": [
+      "setting",
+      "alarm"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 852,
+    "keyphrase": [
+      "alarm",
+      "dutch"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 853,
+    "keyphrase": [
+      "dutch",
+      "city"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 854,
+    "keyphrase": [
+      "young",
+      "people",
+      "stabbed"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 855,
+    "keyphrase": [
+      "people",
+      "stabbed",
+      "busy"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 856,
+    "keyphrase": [
+      "stabbed",
+      "busy",
+      "hague"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 857,
+    "keyphrase": [
+      "busy",
+      "hague",
+      "street"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 858,
+    "keyphrase": [
+      "hague",
+      "street",
+      "setting"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 859,
+    "keyphrase": [
+      "street",
+      "setting",
+      "alarm"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 860,
+    "keyphrase": [
+      "setting",
+      "alarm",
+      "dutch"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 861,
+    "keyphrase": [
+      "alarm",
+      "dutch",
+      "city"
+    ],
+    "pageRank": 0.0011605103
+  },
+  {
+    "index": 862,
+    "keyphrase": "sheep",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 863,
+    "keyphrase": "trapped",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 864,
+    "keyphrase": "capsized",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 865,
+    "keyphrase": "ship",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 866,
+    "keyphrase": "saved",
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 867,
+    "keyphrase": [
+      "sheep",
+      "trapped"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 868,
+    "keyphrase": [
+      "trapped",
+      "capsized"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 869,
+    "keyphrase": [
+      "capsized",
+      "ship"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 870,
+    "keyphrase": [
+      "ship",
+      "saved"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 871,
+    "keyphrase": [
+      "sheep",
+      "trapped",
+      "capsized"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 872,
+    "keyphrase": [
+      "trapped",
+      "capsized",
+      "ship"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 873,
+    "keyphrase": [
+      "capsized",
+      "ship",
+      "saved"
+    ],
+    "pageRank": 0.0011261261
+  },
+  {
+    "index": 874,
+    "keyphrase": "afghanistan",
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 875,
+    "keyphrase": "creates",
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 876,
+    "keyphrase": "confusion",
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 877,
+    "keyphrase": "policy",
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 878,
+    "keyphrase": "taliban",
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 879,
+    "keyphrase": [
+      "afghanistan",
+      "trump"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 880,
+    "keyphrase": [
+      "trump",
+      "creates"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 881,
+    "keyphrase": [
+      "creates",
+      "confusion"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 882,
+    "keyphrase": [
+      "confusion",
+      "policy"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 883,
+    "keyphrase": [
+      "policy",
+      "taliban"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 884,
+    "keyphrase": [
+      "afghanistan",
+      "trump",
+      "creates"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 885,
+    "keyphrase": [
+      "trump",
+      "creates",
+      "confusion"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 886,
+    "keyphrase": [
+      "creates",
+      "confusion",
+      "policy"
+    ],
+    "pageRank": 0.0010275084
+  },
+  {
+    "index": 887,
+    "keyphrase": [
+      "confusion",
+      "policy",
+      "taliban"
+    ],
+    "pageRank": 0.0010275084
+  }
+]

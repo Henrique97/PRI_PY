@@ -1,0 +1,2927 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+    
+<div id="my_dataviz"></div>
+<div id="fixedDiv"></div>
+
+<script>
+
+    // List of words
+    
+    var myWords = 
+[
+  {
+    "index": 0,
+    "keyphrase": "president",
+    "pageRank": "68.84517315893177",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "For Trump and Europe, a Surprising Role Reversal",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/trump-macron-nato.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Johnson, Boris",
+          "Macron, Emmanuel (1977- )",
+          "Merkel, Angela",
+          "Trump, Donald J",
+          "London (England)",
+          "Terrorism"
+        ]
+      ],
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Trump Warns Trade Talks With China May Last Past 2020 Election",
+        "<a href=https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&partner=rss>link</a>",
+        [
+          "International Trade and World Market",
+          "United States International Relations",
+          "Prices (Fares, Fees and Rates)",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "China",
+          "Customs (Tariff)"
+        ]
+      ],
+      [
+        "In Russia, an Updated Law With New Restrictions on Freedom of Speech",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html?emc=rss&partner=rss>link</a>",
+        [
+          "Freedom of Speech and Expression",
+          "Putin, Vladimir V",
+          "Russia"
+        ]
+      ],
+      [
+        "For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&partner=rss>link</a>",
+        [
+          "Sentences (Criminal)",
+          "Terrorism",
+          "Conservative Party (Great Britain)",
+          "Labour Party (Great Britain)",
+          "Johnson, Boris",
+          "London (England)",
+          "Corbyn, Jeremy (1949- )",
+          "Khan, Usman (d 2019)"
+        ]
+      ],
+      [
+        "As Troubles Grow, Mexicans Keep the Faith With Their President",
+        "<a href=https://www.nytimes.com/2019/12/01/world/americas/amlo-mexico-year-violence.html?emc=rss&partner=rss>link</a>",
+        [
+          "Lopez Obrador, Andres Manuel",
+          "Politics and Government",
+          "Economic Conditions and Trends",
+          "Labor and Jobs",
+          "Unemployment",
+          "Pemex",
+          "Mexico",
+          "Tabasco (Mexico)"
+        ]
+      ],
+      [
+        "Leonardo DiCaprio Responds to Brazil\u2019s President About Amazon Fires",
+        "<a href=https://www.nytimes.com/2019/11/30/world/americas/Jair-bolsonaro-amazon-fires-Leonardo-DiCaprio.html?emc=rss&partner=rss>link</a>",
+        [
+          "Social Media",
+          "Environment",
+          "Fires and Firefighters",
+          "Global Warming",
+          "Facebook Inc",
+          "World Wildlife Fund",
+          "Amazon Jungle",
+          "Brazil",
+          "Bolsonaro, Jair (1955- )",
+          "DiCaprio, Leonardo",
+          "Computers and the Internet"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 1,
+    "keyphrase": "trump",
+    "pageRank": "65.19517889759523",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "For Trump and Europe, a Surprising Role Reversal",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/trump-macron-nato.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Johnson, Boris",
+          "Macron, Emmanuel (1977- )",
+          "Merkel, Angela",
+          "Trump, Donald J",
+          "London (England)",
+          "Terrorism"
+        ]
+      ],
+      [
+        "In Video, World Leaders Seem to Be Commiserating About Trump",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/trump-video-nato.html?emc=rss&partner=rss>link</a>",
+        [
+          "Trump, Donald J",
+          "Trudeau, Justin",
+          "Macron, Emmanuel (1977- )",
+          "North Atlantic Treaty Organization",
+          "Canadian Broadcasting Corp"
+        ]
+      ],
+      [
+        "Donald Trump, China, James Bond: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/04/briefing/trump-china-james-bond.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Trump Warns Trade Talks With China May Last Past 2020 Election",
+        "<a href=https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&partner=rss>link</a>",
+        [
+          "International Trade and World Market",
+          "United States International Relations",
+          "Prices (Fares, Fees and Rates)",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "China",
+          "Customs (Tariff)"
+        ]
+      ],
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&partner=rss>link</a>",
+        [
+          "Sentences (Criminal)",
+          "Terrorism",
+          "Conservative Party (Great Britain)",
+          "Labour Party (Great Britain)",
+          "Johnson, Boris",
+          "London (England)",
+          "Corbyn, Jeremy (1949- )",
+          "Khan, Usman (d 2019)"
+        ]
+      ],
+      [
+        "NATO Readies a 70th Birthday Party, With Low-Key Celebrations",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Atlantic Treaty Organization",
+          "United States International Relations",
+          "Defense and Military Forces",
+          "Trump, Donald J",
+          "Stoltenberg, Jens",
+          "Macron, Emmanuel (1977- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 2,
+    "keyphrase": "killed",
+    "pageRank": "51.48213215488875",
+    "titles": [
+      [
+        "America\u2019s Dark History of Killing Its Own Troops With Cluster Munitions",
+        "<a href=https://www.nytimes.com/2019/12/04/magazine/cluster-munitions-history.html?emc=rss&partner=rss>link</a>",
+        [
+          "Cluster Munitions",
+          "United States Defense and Military Forces",
+          "Defense and Military Forces",
+          "Iraq War (2003-11)",
+          "Civilian Casualties",
+          "Aerojet",
+          "Defense Department"
+        ]
+      ],
+      [
+        "Airstrike and Artillery Shelling Kill Civilians in Syrian Towns",
+        "<a href=https://www.nytimes.com/2019/12/02/world/middleeast/civilians-killed-syria.html?emc=rss&partner=rss>link</a>",
+        [
+          "Civilian Casualties",
+          "Defense and Military Forces",
+          "Syrian Observatory for Human Rights",
+          "White Helmets (Syrian Civil Defense Volunteer Group)",
+          "Idlib (Syria)",
+          "Syria"
+        ]
+      ],
+      [
+        "London Bridge Attack Victims Were Advocates for Prisoner Rehabilitation",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/london-bridge-attack-victims.html?emc=rss&partner=rss>link</a>",
+        [
+          "London (England)",
+          "Great Britain",
+          "Ex-Convicts",
+          "Terrorism",
+          "Murders, Attempted Murders and Homicides",
+          "Sentences (Criminal)",
+          "Probation and Parole",
+          "Jones, Saskia (d 2019)"
+        ]
+      ],
+      [
+        "At Least 14 People Killed in Burkina Faso Church Attack",
+        "<a href=https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&partner=rss>link</a>",
+        [
+          "Murders, Attempted Murders and Homicides",
+          "Terrorism",
+          "Muslims and Islam",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Burkina Faso",
+          "West Africa"
+        ]
+      ],
+      [
+        "U.S. Drone Killed Afghan Civilians, Officials Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&partner=rss>link</a>",
+        [
+          "Afghanistan",
+          "Drones (Pilotless Planes)",
+          "Civilian Casualties",
+          "Afghanistan War (2001- )",
+          "Afghan National Security Forces",
+          "Taliban"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 3,
+    "keyphrase": "prince",
+    "pageRank": "50.26153113913004",
+    "titles": [
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Prince Andrew\u2019s Accuser Takes Her Case to the BBC",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&partner=rss>link</a>",
+        [
+          "Giuffre, Virginia Roberts",
+          "Andrew, Duke of York",
+          "Royal Families",
+          "Sex Crimes",
+          "Prostitution",
+          "British Broadcasting Corp",
+          "Epstein, Jeffrey E (1953- )",
+          "Great Britain",
+          "Child Abuse and Neglect"
+        ]
+      ],
+      [
+        "Democrats, Prince Charles, N.F.L.: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/democrats-prince-charles-nfl.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Your Monday Briefing: Malta, Prince Andrew, Northern Ireland",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "In Prince Andrew Scandal, Prince Charles Emerges as Monarch-in-Waiting",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html?emc=rss&partner=rss>link</a>",
+        [
+          "Royal Families",
+          "Andrew, Duke of York",
+          "Charles, Prince of Wales",
+          "Elizabeth II, Queen of Great Britain",
+          "Great Britain",
+          "Politics and Government",
+          "Epstein, Jeffrey E (1953- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 4,
+    "keyphrase": "year",
+    "pageRank": "48.46743408989998",
+    "titles": [
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "\u2018It Just Isn\u2019t Working\u2019: PISA Test Scores Cast Doubt on U.S. Education Efforts",
+        "<a href=https://www.nytimes.com/2019/12/03/us/us-students-international-test-scores.html?emc=rss&partner=rss>link</a>",
+        [
+          "Tests and Examinations",
+          "Reading and Writing Skills (Education)",
+          "Mathematics",
+          "Education (K-12)",
+          "National Assessment of Educational Progress",
+          "United States",
+          "National Center for Education Statistics",
+          "Teenagers and Adolescence"
+        ]
+      ],
+      [
+        "Was This 18,000-Year-Old Siberian Puppy a Dog or a Wolf?",
+        "<a href=https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html?emc=rss&partner=rss>link</a>",
+        [
+          "Wolves",
+          "Dogs",
+          "Yakutsk (Russia)",
+          "Siberia",
+          "Paleontology",
+          "Genetics and Heredity"
+        ]
+      ],
+      [
+        "At Least 14 People Killed in Burkina Faso Church Attack",
+        "<a href=https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&partner=rss>link</a>",
+        [
+          "Murders, Attempted Murders and Homicides",
+          "Terrorism",
+          "Muslims and Islam",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Burkina Faso",
+          "West Africa"
+        ]
+      ],
+      [
+        "Malta Leader Says He Will Resign, as Murder Inquiry Widens",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/malta-prime-minister-resigns.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Assassinations and Attempted Assassinations",
+          "Muscat, Joseph (1974- )",
+          "Caruana Galizia, Daphne",
+          "Malta",
+          "Valletta (Malta)"
+        ]
+      ],
+      [
+        "As Troubles Grow, Mexicans Keep the Faith With Their President",
+        "<a href=https://www.nytimes.com/2019/12/01/world/americas/amlo-mexico-year-violence.html?emc=rss&partner=rss>link</a>",
+        [
+          "Lopez Obrador, Andres Manuel",
+          "Politics and Government",
+          "Economic Conditions and Trends",
+          "Labor and Jobs",
+          "Unemployment",
+          "Pemex",
+          "Mexico",
+          "Tabasco (Mexico)"
+        ]
+      ],
+      [
+        "Irish Ex-Soldier Who Married ISIS Fighter Is Arrested",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/ireland-isis-bride-lisa-smith.html?emc=rss&partner=rss>link</a>",
+        [
+          "Terrorism",
+          "Ireland",
+          "Syria",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Politics and Government",
+          "Children and Childhood"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 5,
+    "keyphrase": "china",
+    "pageRank": "47.457136998251094",
+    "titles": [
+      [
+        "Kim Jong-un Visits Sacred Mountain on Horseback. Analysts Watch His Next Move.",
+        "<a href=https://www.nytimes.com/2019/12/04/world/asia/kim-jong-un-white-horse.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Korea",
+          "Kim Jong-un",
+          "Mount Paektu (North Korea)",
+          "Embargoes and Sanctions",
+          "Arms Control and Limitation and Disarmament",
+          "United States International Relations",
+          "Trump, Donald J"
+        ]
+      ],
+      [
+        "Donald Trump, China, James Bond: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/04/briefing/trump-china-james-bond.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Uighurs, China Trade, NATO: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/uighurs-trade-deal-dmz.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Trump Warns Trade Talks With China May Last Past 2020 Election",
+        "<a href=https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&partner=rss>link</a>",
+        [
+          "International Trade and World Market",
+          "United States International Relations",
+          "Prices (Fares, Fees and Rates)",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "China",
+          "Customs (Tariff)"
+        ]
+      ],
+      [
+        "Your Tuesday Briefing: Boris Johnson, NATO, China",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/boris-johnson-nato-china.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "China Hits Back at U.S. Over Hong Kong Bill in a Mostly Symbolic Move",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Trump, Donald J",
+          "Hong Kong",
+          "China"
+        ]
+      ],
+      [
+        "Hong Kong, Fentanyl in China, Julian Assange: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "China Is Aiming to \u2018Break\u2019 Detained Australian Writer, Lawyers Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/australia/yang-hengjun-isolation-china.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Political Prisoners",
+          "Espionage and Intelligence Services",
+          "Australia",
+          "Yang Hengjun",
+          "China"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 6,
+    "keyphrase": "said",
+    "pageRank": "42.82054212785151",
+    "titles": [
+      [
+        "Trump Warns Trade Talks With China May Last Past 2020 Election",
+        "<a href=https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&partner=rss>link</a>",
+        [
+          "International Trade and World Market",
+          "United States International Relations",
+          "Prices (Fares, Fees and Rates)",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "China",
+          "Customs (Tariff)"
+        ]
+      ],
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "Dead Whale, 220 Pounds of Debris Inside, Is a \u2018Grim Reminder\u2019 of Ocean Trash",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/harris-beached-whale.html?emc=rss&partner=rss>link</a>",
+        [
+          "Whales and Whaling",
+          "Water Pollution",
+          "Scotland",
+          "Fish and Other Marine Life",
+          "Hebrides Islands (Great Britain)"
+        ]
+      ],
+      [
+        "China Hits Back at U.S. Over Hong Kong Bill in a Mostly Symbolic Move",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Trump, Donald J",
+          "Hong Kong",
+          "China"
+        ]
+      ],
+      [
+        "China Is Aiming to \u2018Break\u2019 Detained Australian Writer, Lawyers Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/australia/yang-hengjun-isolation-china.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Political Prisoners",
+          "Espionage and Intelligence Services",
+          "Australia",
+          "Yang Hengjun",
+          "China"
+        ]
+      ],
+      [
+        "U.S. Drone Killed Afghan Civilians, Officials Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&partner=rss>link</a>",
+        [
+          "Afghanistan",
+          "Drones (Pilotless Planes)",
+          "Civilian Casualties",
+          "Afghanistan War (2001- )",
+          "Afghan National Security Forces",
+          "Taliban"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 7,
+    "keyphrase": "briefing",
+    "pageRank": "36.189964815416445",
+    "titles": [
+      [
+        "Impeachment, Emmanuel Macron, Google: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/04/briefing/impeachment-emmanuel-macron-google.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Donald Trump, China, James Bond: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/04/briefing/trump-china-james-bond.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Uighurs, China Trade, NATO: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/uighurs-trade-deal-dmz.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Tariffs, NATO, Philippines: Your Tuesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/tariffs-nato-philippines.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Your Tuesday Briefing: Boris Johnson, NATO, China",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/boris-johnson-nato-china.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Your Tuesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/hong-kong-huawei-typhoon-kammuri.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Democrats, Prince Charles, N.F.L.: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/democrats-prince-charles-nfl.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Your Monday Briefing: Malta, Prince Andrew, Northern Ireland",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Hong Kong, Fentanyl in China, Julian Assange: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&partner=rss>link</a>",
+        []
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 8,
+    "keyphrase": "country",
+    "pageRank": "35.27571339076919",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "Australia Revokes Medical Evacuations for Offshore Detainees",
+        "<a href=https://www.nytimes.com/2019/12/04/world/australia/medevac-refugees-repeal.html?emc=rss&partner=rss>link</a>",
+        [
+          "Law and Legislation",
+          "Refugees and Displaced Persons",
+          "Asylum, Right of",
+          "Human Rights and Human Rights Violations",
+          "Medicine and Health",
+          "Australia",
+          "Nauru",
+          "Papua New Guinea"
+        ]
+      ],
+      [
+        "\u2018It Just Isn\u2019t Working\u2019: PISA Test Scores Cast Doubt on U.S. Education Efforts",
+        "<a href=https://www.nytimes.com/2019/12/03/us/us-students-international-test-scores.html?emc=rss&partner=rss>link</a>",
+        [
+          "Tests and Examinations",
+          "Reading and Writing Skills (Education)",
+          "Mathematics",
+          "Education (K-12)",
+          "National Assessment of Educational Progress",
+          "United States",
+          "National Center for Education Statistics",
+          "Teenagers and Adolescence"
+        ]
+      ],
+      [
+        "Looking for a Castle or Country Home? Try Scotland",
+        "<a href=https://www.nytimes.com/2019/12/03/realestate/market-strong-for-castles-and-country-homes-in-scotland.html?emc=rss&partner=rss>link</a>",
+        [
+          "Scotland",
+          "Edinburgh (Scotland)",
+          "Palaces and Castles",
+          "Real Estate and Housing (Residential)",
+          "Home Repairs and Improvements"
+        ]
+      ],
+      [
+        "At Least 14 People Killed in Burkina Faso Church Attack",
+        "<a href=https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&partner=rss>link</a>",
+        [
+          "Murders, Attempted Murders and Homicides",
+          "Terrorism",
+          "Muslims and Islam",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Burkina Faso",
+          "West Africa"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 9,
+    "keyphrase": "people",
+    "pageRank": "34.66987330310739",
+    "titles": [
+      [
+        "Typhoon Kammuri Kills at Least 17 as It Powers Through Philippines",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/philippines-typhoon-tisoy-kammuri.html?emc=rss&partner=rss>link</a>",
+        [
+          "Typhoons",
+          "Typhoon Haiyan (2013)",
+          "Floods",
+          "Landslides and Mudslides",
+          "Evacuations and Evacuees",
+          "Luzon (Philippines)",
+          "Manila (Philippines)",
+          "Philippines",
+          "Tacloban (Philippines)"
+        ]
+      ],
+      [
+        "Why Are These Foxes Tame? Maybe They Weren\u2019t So Wild to Begin With",
+        "<a href=https://www.nytimes.com/2019/12/03/science/foxes-tame-belyaev.html?emc=rss&partner=rss>link</a>",
+        [
+          "Animal Cognition",
+          "Foxes",
+          "Genetics and Heredity",
+          "Arizona State University",
+          "Broad Institute",
+          "Hampshire College",
+          "Humboldt University",
+          "Oxford University",
+          "University of Illinois",
+          "Novosibirsk (Russia)",
+          "Prince Edward Island (Canada)",
+          "Russia",
+          "USSR (Former Soviet Union)"
+        ]
+      ],
+      [
+        "\u2018Incredible Story of Survival\u2019: Woman Rescued After 12 Days in Outback",
+        "<a href=https://www.nytimes.com/2019/12/02/world/australia/outback-lost-survival.html?emc=rss&partner=rss>link</a>",
+        [
+          "Missing Persons",
+          "Rescues",
+          "Australia",
+          "Northern Territory (Australia)",
+          "McBeath-Riley, Tamra"
+        ]
+      ],
+      [
+        "At Least 14 People Killed in Burkina Faso Church Attack",
+        "<a href=https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&partner=rss>link</a>",
+        [
+          "Murders, Attempted Murders and Homicides",
+          "Terrorism",
+          "Muslims and Islam",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Burkina Faso",
+          "West Africa"
+        ]
+      ],
+      [
+        "With Brutal Crackdown, Iran Is Convulsed by Worst Unrest in 40 Years",
+        "<a href=https://www.nytimes.com/2019/12/01/world/middleeast/iran-protests-deaths.html?emc=rss&partner=rss>link</a>",
+        [
+          "Iran",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Khamenei, Ali",
+          "Rouhani, Hassan",
+          "Islamic Revolutionary Guards Corps",
+          "Deaths (Fatalities)",
+          "Moussavi, Mir Hussein",
+          "Mahshahr (Iran)",
+          "Human Rights and Human Rights Violations"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 10,
+    "keyphrase": "andrew",
+    "pageRank": "34.665941422022954",
+    "titles": [
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Prince Andrew\u2019s Accuser Takes Her Case to the BBC",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&partner=rss>link</a>",
+        [
+          "Giuffre, Virginia Roberts",
+          "Andrew, Duke of York",
+          "Royal Families",
+          "Sex Crimes",
+          "Prostitution",
+          "British Broadcasting Corp",
+          "Epstein, Jeffrey E (1953- )",
+          "Great Britain",
+          "Child Abuse and Neglect"
+        ]
+      ],
+      [
+        "Your Monday Briefing: Malta, Prince Andrew, Northern Ireland",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "In Prince Andrew Scandal, Prince Charles Emerges as Monarch-in-Waiting",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html?emc=rss&partner=rss>link</a>",
+        [
+          "Royal Families",
+          "Andrew, Duke of York",
+          "Charles, Prince of Wales",
+          "Elizabeth II, Queen of Great Britain",
+          "Great Britain",
+          "Politics and Government",
+          "Epstein, Jeffrey E (1953- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 11,
+    "keyphrase": "prince andrew",
+    "pageRank": "34.665941422022954",
+    "titles": [
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Prince Andrew\u2019s Accuser Takes Her Case to the BBC",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&partner=rss>link</a>",
+        [
+          "Giuffre, Virginia Roberts",
+          "Andrew, Duke of York",
+          "Royal Families",
+          "Sex Crimes",
+          "Prostitution",
+          "British Broadcasting Corp",
+          "Epstein, Jeffrey E (1953- )",
+          "Great Britain",
+          "Child Abuse and Neglect"
+        ]
+      ],
+      [
+        "Your Monday Briefing: Malta, Prince Andrew, Northern Ireland",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "In Prince Andrew Scandal, Prince Charles Emerges as Monarch-in-Waiting",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html?emc=rss&partner=rss>link</a>",
+        [
+          "Royal Families",
+          "Andrew, Duke of York",
+          "Charles, Prince of Wales",
+          "Elizabeth II, Queen of Great Britain",
+          "Great Britain",
+          "Politics and Government",
+          "Epstein, Jeffrey E (1953- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 12,
+    "keyphrase": "government",
+    "pageRank": "34.54751354242059",
+    "titles": [
+      [
+        "Australia Revokes Medical Evacuations for Offshore Detainees",
+        "<a href=https://www.nytimes.com/2019/12/04/world/australia/medevac-refugees-repeal.html?emc=rss&partner=rss>link</a>",
+        [
+          "Law and Legislation",
+          "Refugees and Displaced Persons",
+          "Asylum, Right of",
+          "Human Rights and Human Rights Violations",
+          "Medicine and Health",
+          "Australia",
+          "Nauru",
+          "Papua New Guinea"
+        ]
+      ],
+      [
+        "North Korea Touts New Resort, Seeking to Blunt U.N. Sanctions",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/north-korea-resorts-sanctions.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Economic Conditions and Trends",
+          "Embargoes and Sanctions",
+          "Kim Jong-un",
+          "Travel and Vacations",
+          "China",
+          "North Korea"
+        ]
+      ],
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "Activist\u2019s Case Hints at What Changes and What Stays the Same in Cuba",
+        "<a href=https://www.nytimes.com/2019/12/02/world/americas/cuban-activist-ferrer-diaz-canel.html?emc=rss&partner=rss>link</a>",
+        [
+          "Diaz-Canel Bermudez, Miguel",
+          "Ferrer, Jose Daniel",
+          "Cuba",
+          "Political Prisoners",
+          "Human Rights and Human Rights Violations"
+        ]
+      ],
+      [
+        "Malta Leader Says He Will Resign, as Murder Inquiry Widens",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/malta-prime-minister-resigns.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Assassinations and Attempted Assassinations",
+          "Muscat, Joseph (1974- )",
+          "Caruana Galizia, Daphne",
+          "Malta",
+          "Valletta (Malta)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 13,
+    "keyphrase": "leaders",
+    "pageRank": "34.24122981301713",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "For Trump and Europe, a Surprising Role Reversal",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/trump-macron-nato.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Johnson, Boris",
+          "Macron, Emmanuel (1977- )",
+          "Merkel, Angela",
+          "Trump, Donald J",
+          "London (England)",
+          "Terrorism"
+        ]
+      ],
+      [
+        "In Video, World Leaders Seem to Be Commiserating About Trump",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/trump-video-nato.html?emc=rss&partner=rss>link</a>",
+        [
+          "Trump, Donald J",
+          "Trudeau, Justin",
+          "Macron, Emmanuel (1977- )",
+          "North Atlantic Treaty Organization",
+          "Canadian Broadcasting Corp"
+        ]
+      ],
+      [
+        "NATO Readies a 70th Birthday Party, With Low-Key Celebrations",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Atlantic Treaty Organization",
+          "United States International Relations",
+          "Defense and Military Forces",
+          "Trump, Donald J",
+          "Stoltenberg, Jens",
+          "Macron, Emmanuel (1977- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 14,
+    "keyphrase": "say",
+    "pageRank": "33.18437141800201",
+    "titles": [
+      [
+        "San Diego Man on List of Most Wanted Terrorists Faces New Charges",
+        "<a href=https://www.nytimes.com/2019/12/03/us/san-diego-terrorist.html?emc=rss&partner=rss>link</a>",
+        [
+          "Terrorism",
+          "Shabab",
+          "Al Qaeda",
+          "Federal Bureau of Investigation",
+          "San Diego (Calif)",
+          "Somalia",
+          "Mostafa, Jehad Serwan"
+        ]
+      ],
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Second Australian Rescued After Nearly 2 Weeks in Outback; Other Feared Dead",
+        "<a href=https://www.nytimes.com/2019/12/02/world/australia/outback-missing-rescue.html?emc=rss&partner=rss>link</a>",
+        [
+          "Rescues",
+          "Australia",
+          "Alice Springs (Australia)"
+        ]
+      ],
+      [
+        "ISIS Is Losing Afghan Territory. That Means Little for Its Victims.",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/ISIS-afghanistan-baghdadi.html?emc=rss&partner=rss>link</a>",
+        [
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Afghanistan War (2001- )",
+          "Terrorism",
+          "Civilian Casualties",
+          "Taliban",
+          "Baghdadi, Abu Bakr al-",
+          "Trump, Donald J",
+          "Afghanistan"
+        ]
+      ],
+      [
+        "China Is Aiming to \u2018Break\u2019 Detained Australian Writer, Lawyers Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/australia/yang-hengjun-isolation-china.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Political Prisoners",
+          "Espionage and Intelligence Services",
+          "Australia",
+          "Yang Hengjun",
+          "China"
+        ]
+      ],
+      [
+        "U.S. Drone Killed Afghan Civilians, Officials Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&partner=rss>link</a>",
+        [
+          "Afghanistan",
+          "Drones (Pilotless Planes)",
+          "Civilian Casualties",
+          "Afghanistan War (2001- )",
+          "Afghan National Security Forces",
+          "Taliban"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 15,
+    "keyphrase": "london",
+    "pageRank": "32.5896421139374",
+    "titles": [
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Prince Andrew\u2019s Accuser Takes Her Case to the BBC",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&partner=rss>link</a>",
+        [
+          "Giuffre, Virginia Roberts",
+          "Andrew, Duke of York",
+          "Royal Families",
+          "Sex Crimes",
+          "Prostitution",
+          "British Broadcasting Corp",
+          "Epstein, Jeffrey E (1953- )",
+          "Great Britain",
+          "Child Abuse and Neglect"
+        ]
+      ],
+      [
+        "London Bridge Attack Victims Were Advocates for Prisoner Rehabilitation",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/london-bridge-attack-victims.html?emc=rss&partner=rss>link</a>",
+        [
+          "London (England)",
+          "Great Britain",
+          "Ex-Convicts",
+          "Terrorism",
+          "Murders, Attempted Murders and Homicides",
+          "Sentences (Criminal)",
+          "Probation and Parole",
+          "Jones, Saskia (d 2019)"
+        ]
+      ],
+      [
+        "NATO Readies a 70th Birthday Party, With Low-Key Celebrations",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Atlantic Treaty Organization",
+          "United States International Relations",
+          "Defense and Military Forces",
+          "Trump, Donald J",
+          "Stoltenberg, Jens",
+          "Macron, Emmanuel (1977- )"
+        ]
+      ],
+      [
+        "Assange to Testify on Being Recorded in Embassy in London",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/assange-spying-embassy-Ecuador.html?emc=rss&partner=rss>link</a>",
+        [
+          "Classified Information and State Secrets",
+          "Diplomatic Service, Embassies and Consulates",
+          "Espionage and Intelligence Services",
+          "Central Intelligence Agency",
+          "National Court (Spain)",
+          "WikiLeaks",
+          "Assange, Julian P",
+          "Spain",
+          "Ecuador"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 16,
+    "keyphrase": "world",
+    "pageRank": "31.466147920643206",
+    "titles": [
+      [
+        "In Video, World Leaders Seem to Be Commiserating About Trump",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/trump-video-nato.html?emc=rss&partner=rss>link</a>",
+        [
+          "Trump, Donald J",
+          "Trudeau, Justin",
+          "Macron, Emmanuel (1977- )",
+          "North Atlantic Treaty Organization",
+          "Canadian Broadcasting Corp"
+        ]
+      ],
+      [
+        "Italians Celebrate Their Coffee and Want the World to Do So, Too",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/italy-coffee-world-heritage.html?emc=rss&partner=rss>link</a>",
+        [
+          "Coffee",
+          "Coffeehouses",
+          "United Nations Educational, Scientific and Cultural Organization",
+          "Italy"
+        ]
+      ],
+      [
+        "Climate Change Is Accelerating: \u2018Things Are Getting Worse\u2019",
+        "<a href=https://www.nytimes.com/2019/12/04/climate/climate-change-acceleration.html?emc=rss&partner=rss>link</a>",
+        [
+          "Global Warming",
+          "Greenhouse Gas Emissions",
+          "United Nations Framework Convention on Climate Change",
+          "United Nations Climate Action Summit (2019)"
+        ]
+      ],
+      [
+        "\u2018It Just Isn\u2019t Working\u2019: PISA Test Scores Cast Doubt on U.S. Education Efforts",
+        "<a href=https://www.nytimes.com/2019/12/03/us/us-students-international-test-scores.html?emc=rss&partner=rss>link</a>",
+        [
+          "Tests and Examinations",
+          "Reading and Writing Skills (Education)",
+          "Mathematics",
+          "Education (K-12)",
+          "National Assessment of Educational Progress",
+          "United States",
+          "National Center for Education Statistics",
+          "Teenagers and Adolescence"
+        ]
+      ],
+      [
+        "\u2018I Wanted to Die:\u2019 Northern Ireland Confronts a Suicide Crisis",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/northern-ireland-suicide.html?emc=rss&partner=rss>link</a>",
+        [
+          "Depression (Mental)",
+          "Mental Health and Disorders",
+          "Anxiety and Stress",
+          "Post-Traumatic Stress Disorder",
+          "Terrorism",
+          "Suicides and Suicide Attempts",
+          "Northern Ireland",
+          "Irish Republican Army",
+          "Derry (Northern Ireland)",
+          "Great Britain",
+          "Enniskillen (Northern Ireland)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 17,
+    "keyphrase": "new",
+    "pageRank": "30.600212438443734",
+    "titles": [
+      [
+        "San Diego Man on List of Most Wanted Terrorists Faces New Charges",
+        "<a href=https://www.nytimes.com/2019/12/03/us/san-diego-terrorist.html?emc=rss&partner=rss>link</a>",
+        [
+          "Terrorism",
+          "Shabab",
+          "Al Qaeda",
+          "Federal Bureau of Investigation",
+          "San Diego (Calif)",
+          "Somalia",
+          "Mostafa, Jehad Serwan"
+        ]
+      ],
+      [
+        "North Korea Touts New Resort, Seeking to Blunt U.N. Sanctions",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/north-korea-resorts-sanctions.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Economic Conditions and Trends",
+          "Embargoes and Sanctions",
+          "Kim Jong-un",
+          "Travel and Vacations",
+          "China",
+          "North Korea"
+        ]
+      ],
+      [
+        "Why Are These Foxes Tame? Maybe They Weren\u2019t So Wild to Begin With",
+        "<a href=https://www.nytimes.com/2019/12/03/science/foxes-tame-belyaev.html?emc=rss&partner=rss>link</a>",
+        [
+          "Animal Cognition",
+          "Foxes",
+          "Genetics and Heredity",
+          "Arizona State University",
+          "Broad Institute",
+          "Hampshire College",
+          "Humboldt University",
+          "Oxford University",
+          "University of Illinois",
+          "Novosibirsk (Russia)",
+          "Prince Edward Island (Canada)",
+          "Russia",
+          "USSR (Former Soviet Union)"
+        ]
+      ],
+      [
+        "Looking for a Castle or Country Home? Try Scotland",
+        "<a href=https://www.nytimes.com/2019/12/03/realestate/market-strong-for-castles-and-country-homes-in-scotland.html?emc=rss&partner=rss>link</a>",
+        [
+          "Scotland",
+          "Edinburgh (Scotland)",
+          "Palaces and Castles",
+          "Real Estate and Housing (Residential)",
+          "Home Repairs and Improvements"
+        ]
+      ],
+      [
+        "In Russia, an Updated Law With New Restrictions on Freedom of Speech",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html?emc=rss&partner=rss>link</a>",
+        [
+          "Freedom of Speech and Expression",
+          "Putin, Vladimir V",
+          "Russia"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 18,
+    "keyphrase": "nato",
+    "pageRank": "29.38301463171566",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "Uighurs, China Trade, NATO: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/uighurs-trade-deal-dmz.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Tariffs, NATO, Philippines: Your Tuesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/tariffs-nato-philippines.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Your Tuesday Briefing: Boris Johnson, NATO, China",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/boris-johnson-nato-china.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&partner=rss>link</a>",
+        [
+          "Sentences (Criminal)",
+          "Terrorism",
+          "Conservative Party (Great Britain)",
+          "Labour Party (Great Britain)",
+          "Johnson, Boris",
+          "London (England)",
+          "Corbyn, Jeremy (1949- )",
+          "Khan, Usman (d 2019)"
+        ]
+      ],
+      [
+        "NATO Readies a 70th Birthday Party, With Low-Key Celebrations",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Atlantic Treaty Organization",
+          "United States International Relations",
+          "Defense and Military Forces",
+          "Trump, Donald J",
+          "Stoltenberg, Jens",
+          "Macron, Emmanuel (1977- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 19,
+    "keyphrase": "hong",
+    "pageRank": "25.708246069075592",
+    "titles": [
+      [
+        "Your Tuesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/hong-kong-huawei-typhoon-kammuri.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "China Hits Back at U.S. Over Hong Kong Bill in a Mostly Symbolic Move",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Trump, Donald J",
+          "Hong Kong",
+          "China"
+        ]
+      ],
+      [
+        "Hong Kong, Fentanyl in China, Julian Assange: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Hong Kong Police Fire Tear Gas as Protesters Return in Force",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/hong-kong-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Demonstrations, Protests and Riots",
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Elections",
+          "Hong Kong",
+          "Lam, Carrie (1957- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 20,
+    "keyphrase": "kong",
+    "pageRank": "25.708246069075592",
+    "titles": [
+      [
+        "Your Tuesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/hong-kong-huawei-typhoon-kammuri.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "China Hits Back at U.S. Over Hong Kong Bill in a Mostly Symbolic Move",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Trump, Donald J",
+          "Hong Kong",
+          "China"
+        ]
+      ],
+      [
+        "Hong Kong, Fentanyl in China, Julian Assange: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Hong Kong Police Fire Tear Gas as Protesters Return in Force",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/hong-kong-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Demonstrations, Protests and Riots",
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Elections",
+          "Hong Kong",
+          "Lam, Carrie (1957- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 21,
+    "keyphrase": "hong kong",
+    "pageRank": "25.70824606907559",
+    "titles": [
+      [
+        "Your Tuesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/hong-kong-huawei-typhoon-kammuri.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "China Hits Back at U.S. Over Hong Kong Bill in a Mostly Symbolic Move",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Trump, Donald J",
+          "Hong Kong",
+          "China"
+        ]
+      ],
+      [
+        "Hong Kong, Fentanyl in China, Julian Assange: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Hong Kong Police Fire Tear Gas as Protesters Return in Force",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/hong-kong-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Demonstrations, Protests and Riots",
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Elections",
+          "Hong Kong",
+          "Lam, Carrie (1957- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 22,
+    "keyphrase": "public",
+    "pageRank": "24.16549731975848",
+    "titles": [
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "Fighting Extradition, Huawei Executive Writes of \u2018Moments of Fear\u2019",
+        "<a href=https://www.nytimes.com/2019/12/02/world/canada/meng-wanzhou-huawei-extradition.html?emc=rss&partner=rss>link</a>",
+        [
+          "Extradition",
+          "Meng Wanzhou",
+          "Vancouver (British Columbia)",
+          "China",
+          "Huawei Technologies Co Ltd"
+        ]
+      ],
+      [
+        "In Prince Andrew Scandal, Prince Charles Emerges as Monarch-in-Waiting",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html?emc=rss&partner=rss>link</a>",
+        [
+          "Royal Families",
+          "Andrew, Duke of York",
+          "Charles, Prince of Wales",
+          "Elizabeth II, Queen of Great Britain",
+          "Great Britain",
+          "Politics and Government",
+          "Epstein, Jeffrey E (1953- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 23,
+    "keyphrase": "says",
+    "pageRank": "23.59662203559657",
+    "titles": [
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "Prince Andrew\u2019s Accuser Takes Her Case to the BBC",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&partner=rss>link</a>",
+        [
+          "Giuffre, Virginia Roberts",
+          "Andrew, Duke of York",
+          "Royal Families",
+          "Sex Crimes",
+          "Prostitution",
+          "British Broadcasting Corp",
+          "Epstein, Jeffrey E (1953- )",
+          "Great Britain",
+          "Child Abuse and Neglect"
+        ]
+      ],
+      [
+        "Malta Leader Says He Will Resign, as Murder Inquiry Widens",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/malta-prime-minister-resigns.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Assassinations and Attempted Assassinations",
+          "Muscat, Joseph (1974- )",
+          "Caruana Galizia, Daphne",
+          "Malta",
+          "Valletta (Malta)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 24,
+    "keyphrase": "british",
+    "pageRank": "23.028131101096562",
+    "titles": [
+      [
+        "Prince Andrew\u2019s Accuser Takes Her Case to the BBC",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&partner=rss>link</a>",
+        [
+          "Giuffre, Virginia Roberts",
+          "Andrew, Duke of York",
+          "Royal Families",
+          "Sex Crimes",
+          "Prostitution",
+          "British Broadcasting Corp",
+          "Epstein, Jeffrey E (1953- )",
+          "Great Britain",
+          "Child Abuse and Neglect"
+        ]
+      ],
+      [
+        "For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&partner=rss>link</a>",
+        [
+          "Sentences (Criminal)",
+          "Terrorism",
+          "Conservative Party (Great Britain)",
+          "Labour Party (Great Britain)",
+          "Johnson, Boris",
+          "London (England)",
+          "Corbyn, Jeremy (1949- )",
+          "Khan, Usman (d 2019)"
+        ]
+      ],
+      [
+        "In Prince Andrew Scandal, Prince Charles Emerges as Monarch-in-Waiting",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/prince-charles-andrew-queen.html?emc=rss&partner=rss>link</a>",
+        [
+          "Royal Families",
+          "Andrew, Duke of York",
+          "Charles, Prince of Wales",
+          "Elizabeth II, Queen of Great Britain",
+          "Great Britain",
+          "Politics and Government",
+          "Epstein, Jeffrey E (1953- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 25,
+    "keyphrase": "trade",
+    "pageRank": "22.879035112734268",
+    "titles": [
+      [
+        "Uighurs, China Trade, NATO: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/03/briefing/uighurs-trade-deal-dmz.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Trump Warns Trade Talks With China May Last Past 2020 Election",
+        "<a href=https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&partner=rss>link</a>",
+        [
+          "International Trade and World Market",
+          "United States International Relations",
+          "Prices (Fares, Fees and Rates)",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "China",
+          "Customs (Tariff)"
+        ]
+      ],
+      [
+        "For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&partner=rss>link</a>",
+        [
+          "Sentences (Criminal)",
+          "Terrorism",
+          "Conservative Party (Great Britain)",
+          "Labour Party (Great Britain)",
+          "Johnson, Boris",
+          "London (England)",
+          "Corbyn, Jeremy (1949- )",
+          "Khan, Usman (d 2019)"
+        ]
+      ],
+      [
+        "China Hits Back at U.S. Over Hong Kong Bill in a Mostly Symbolic Move",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/china-us-hong-kong-bill-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Trump, Donald J",
+          "Hong Kong",
+          "China"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 26,
+    "keyphrase": "officials",
+    "pageRank": "22.129104418421804",
+    "titles": [
+      [
+        "Second Australian Rescued After Nearly 2 Weeks in Outback; Other Feared Dead",
+        "<a href=https://www.nytimes.com/2019/12/02/world/australia/outback-missing-rescue.html?emc=rss&partner=rss>link</a>",
+        [
+          "Rescues",
+          "Australia",
+          "Alice Springs (Australia)"
+        ]
+      ],
+      [
+        "ISIS Is Losing Afghan Territory. That Means Little for Its Victims.",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/ISIS-afghanistan-baghdadi.html?emc=rss&partner=rss>link</a>",
+        [
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Afghanistan War (2001- )",
+          "Terrorism",
+          "Civilian Casualties",
+          "Taliban",
+          "Baghdadi, Abu Bakr al-",
+          "Trump, Donald J",
+          "Afghanistan"
+        ]
+      ],
+      [
+        "U.S. Drone Killed Afghan Civilians, Officials Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&partner=rss>link</a>",
+        [
+          "Afghanistan",
+          "Drones (Pilotless Planes)",
+          "Civilian Casualties",
+          "Afghanistan War (2001- )",
+          "Afghan National Security Forces",
+          "Taliban"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 27,
+    "keyphrase": "president trump",
+    "pageRank": "21.928643048809963",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "\u2018I Don\u2019t Know Prince Andrew,\u2019 Trump Says. Photos Say Otherwise.",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/donald-trump-prince-andrew.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Labour Party (Great Britain)",
+          "Andrew, Duke of York",
+          "Epstein, Jeffrey E (1953- )",
+          "Trump, Donald J",
+          "Giuffre, Virginia Roberts",
+          "Great Britain"
+        ]
+      ],
+      [
+        "For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&partner=rss>link</a>",
+        [
+          "Sentences (Criminal)",
+          "Terrorism",
+          "Conservative Party (Great Britain)",
+          "Labour Party (Great Britain)",
+          "Johnson, Boris",
+          "London (England)",
+          "Corbyn, Jeremy (1949- )",
+          "Khan, Usman (d 2019)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 28,
+    "keyphrase": "foreign",
+    "pageRank": "21.525572841626715",
+    "titles": [
+      [
+        "North Korea Touts New Resort, Seeking to Blunt U.N. Sanctions",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/north-korea-resorts-sanctions.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Economic Conditions and Trends",
+          "Embargoes and Sanctions",
+          "Kim Jong-un",
+          "Travel and Vacations",
+          "China",
+          "North Korea"
+        ]
+      ],
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "In Russia, an Updated Law With New Restrictions on Freedom of Speech",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html?emc=rss&partner=rss>link</a>",
+        [
+          "Freedom of Speech and Expression",
+          "Putin, Vladimir V",
+          "Russia"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 29,
+    "keyphrase": "civilians",
+    "pageRank": "21.446889742969876",
+    "titles": [
+      [
+        "America\u2019s Dark History of Killing Its Own Troops With Cluster Munitions",
+        "<a href=https://www.nytimes.com/2019/12/04/magazine/cluster-munitions-history.html?emc=rss&partner=rss>link</a>",
+        [
+          "Cluster Munitions",
+          "United States Defense and Military Forces",
+          "Defense and Military Forces",
+          "Iraq War (2003-11)",
+          "Civilian Casualties",
+          "Aerojet",
+          "Defense Department"
+        ]
+      ],
+      [
+        "Airstrike and Artillery Shelling Kill Civilians in Syrian Towns",
+        "<a href=https://www.nytimes.com/2019/12/02/world/middleeast/civilians-killed-syria.html?emc=rss&partner=rss>link</a>",
+        [
+          "Civilian Casualties",
+          "Defense and Military Forces",
+          "Syrian Observatory for Human Rights",
+          "White Helmets (Syrian Civil Defense Volunteer Group)",
+          "Idlib (Syria)",
+          "Syria"
+        ]
+      ],
+      [
+        "U.S. Drone Killed Afghan Civilians, Officials Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&partner=rss>link</a>",
+        [
+          "Afghanistan",
+          "Drones (Pilotless Planes)",
+          "Civilian Casualties",
+          "Afghanistan War (2001- )",
+          "Afghan National Security Forces",
+          "Taliban"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 30,
+    "keyphrase": "just",
+    "pageRank": "21.08285427780487",
+    "titles": [
+      [
+        "Australia Revokes Medical Evacuations for Offshore Detainees",
+        "<a href=https://www.nytimes.com/2019/12/04/world/australia/medevac-refugees-repeal.html?emc=rss&partner=rss>link</a>",
+        [
+          "Law and Legislation",
+          "Refugees and Displaced Persons",
+          "Asylum, Right of",
+          "Human Rights and Human Rights Violations",
+          "Medicine and Health",
+          "Australia",
+          "Nauru",
+          "Papua New Guinea"
+        ]
+      ],
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "\u2018It Just Isn\u2019t Working\u2019: PISA Test Scores Cast Doubt on U.S. Education Efforts",
+        "<a href=https://www.nytimes.com/2019/12/03/us/us-students-international-test-scores.html?emc=rss&partner=rss>link</a>",
+        [
+          "Tests and Examinations",
+          "Reading and Writing Skills (Education)",
+          "Mathematics",
+          "Education (K-12)",
+          "National Assessment of Educational Progress",
+          "United States",
+          "National Center for Education Statistics",
+          "Teenagers and Adolescence"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 31,
+    "keyphrase": "monday",
+    "pageRank": "20.91386373166957",
+    "titles": [
+      [
+        "In Russia, an Updated Law With New Restrictions on Freedom of Speech",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html?emc=rss&partner=rss>link</a>",
+        [
+          "Freedom of Speech and Expression",
+          "Putin, Vladimir V",
+          "Russia"
+        ]
+      ],
+      [
+        "Democrats, Prince Charles, N.F.L.: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/democrats-prince-charles-nfl.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Your Monday Briefing: Malta, Prince Andrew, Northern Ireland",
+        "<a href=https://www.nytimes.com/2019/12/02/briefing/malta-prince-andrew-northern-ireland.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "Hong Kong, Fentanyl in China, Julian Assange: Your Monday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/01/briefing/hong-kong-julian-assange-china-fentanyl.html?emc=rss&partner=rss>link</a>",
+        []
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 32,
+    "keyphrase": "week",
+    "pageRank": "20.87212044950428",
+    "titles": [
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "For Boris Johnson, a Perilous Week Negotiating Terrorism and Trump",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/uk-boris-johnson-trump.html?emc=rss&partner=rss>link</a>",
+        [
+          "Sentences (Criminal)",
+          "Terrorism",
+          "Conservative Party (Great Britain)",
+          "Labour Party (Great Britain)",
+          "Johnson, Boris",
+          "London (England)",
+          "Corbyn, Jeremy (1949- )",
+          "Khan, Usman (d 2019)"
+        ]
+      ],
+      [
+        "Hong Kong Police Fire Tear Gas as Protesters Return in Force",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/hong-kong-protests.html?emc=rss&partner=rss>link</a>",
+        [
+          "Demonstrations, Protests and Riots",
+          "Hong Kong Protests (2019)",
+          "Politics and Government",
+          "Elections",
+          "Hong Kong",
+          "Lam, Carrie (1957- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 33,
+    "keyphrase": "russia",
+    "pageRank": "20.49102623002572",
+    "titles": [
+      [
+        "In Russia, an Updated Law With New Restrictions on Freedom of Speech",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/russia-foreign-agents-law.html?emc=rss&partner=rss>link</a>",
+        [
+          "Freedom of Speech and Expression",
+          "Putin, Vladimir V",
+          "Russia"
+        ]
+      ],
+      [
+        "Was This 18,000-Year-Old Siberian Puppy a Dog or a Wolf?",
+        "<a href=https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html?emc=rss&partner=rss>link</a>",
+        [
+          "Wolves",
+          "Dogs",
+          "Yakutsk (Russia)",
+          "Siberia",
+          "Paleontology",
+          "Genetics and Heredity"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 34,
+    "keyphrase": "dead",
+    "pageRank": "20.45414688218367",
+    "titles": [
+      [
+        "Second Australian Rescued After Nearly 2 Weeks in Outback; Other Feared Dead",
+        "<a href=https://www.nytimes.com/2019/12/02/world/australia/outback-missing-rescue.html?emc=rss&partner=rss>link</a>",
+        [
+          "Rescues",
+          "Australia",
+          "Alice Springs (Australia)"
+        ]
+      ],
+      [
+        "Dead Whale, 220 Pounds of Debris Inside, Is a \u2018Grim Reminder\u2019 of Ocean Trash",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/harris-beached-whale.html?emc=rss&partner=rss>link</a>",
+        [
+          "Whales and Whaling",
+          "Water Pollution",
+          "Scotland",
+          "Fish and Other Marine Life",
+          "Hebrides Islands (Great Britain)"
+        ]
+      ],
+      [
+        "With Brutal Crackdown, Iran Is Convulsed by Worst Unrest in 40 Years",
+        "<a href=https://www.nytimes.com/2019/12/01/world/middleeast/iran-protests-deaths.html?emc=rss&partner=rss>link</a>",
+        [
+          "Iran",
+          "Demonstrations, Protests and Riots",
+          "Embargoes and Sanctions",
+          "Khamenei, Ali",
+          "Rouhani, Hassan",
+          "Islamic Revolutionary Guards Corps",
+          "Deaths (Fatalities)",
+          "Moussavi, Mir Hussein",
+          "Mahshahr (Iran)",
+          "Human Rights and Human Rights Violations"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 35,
+    "keyphrase": "ex",
+    "pageRank": "20.338189867217807",
+    "titles": [
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "Irish Ex-Soldier Who Married ISIS Fighter Is Arrested",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/ireland-isis-bride-lisa-smith.html?emc=rss&partner=rss>link</a>",
+        [
+          "Terrorism",
+          "Ireland",
+          "Syria",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Politics and Government",
+          "Children and Childhood"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 36,
+    "keyphrase": "scientists",
+    "pageRank": "20.01672080636919",
+    "titles": [
+      [
+        "Climate Change Is Accelerating: \u2018Things Are Getting Worse\u2019",
+        "<a href=https://www.nytimes.com/2019/12/04/climate/climate-change-acceleration.html?emc=rss&partner=rss>link</a>",
+        [
+          "Global Warming",
+          "Greenhouse Gas Emissions",
+          "United Nations Framework Convention on Climate Change",
+          "United Nations Climate Action Summit (2019)"
+        ]
+      ],
+      [
+        "Why Are These Foxes Tame? Maybe They Weren\u2019t So Wild to Begin With",
+        "<a href=https://www.nytimes.com/2019/12/03/science/foxes-tame-belyaev.html?emc=rss&partner=rss>link</a>",
+        [
+          "Animal Cognition",
+          "Foxes",
+          "Genetics and Heredity",
+          "Arizona State University",
+          "Broad Institute",
+          "Hampshire College",
+          "Humboldt University",
+          "Oxford University",
+          "University of Illinois",
+          "Novosibirsk (Russia)",
+          "Prince Edward Island (Canada)",
+          "Russia",
+          "USSR (Former Soviet Union)"
+        ]
+      ],
+      [
+        "Was This 18,000-Year-Old Siberian Puppy a Dog or a Wolf?",
+        "<a href=https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html?emc=rss&partner=rss>link</a>",
+        [
+          "Wolves",
+          "Dogs",
+          "Yakutsk (Russia)",
+          "Siberia",
+          "Paleontology",
+          "Genetics and Heredity"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 39,
+    "keyphrase": "emmanuel macron",
+    "pageRank": "19.8353287571353",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "Impeachment, Emmanuel Macron, Google: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/04/briefing/impeachment-emmanuel-macron-google.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "NATO Readies a 70th Birthday Party, With Low-Key Celebrations",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Atlantic Treaty Organization",
+          "United States International Relations",
+          "Defense and Military Forces",
+          "Trump, Donald J",
+          "Stoltenberg, Jens",
+          "Macron, Emmanuel (1977- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 38,
+    "keyphrase": "macron",
+    "pageRank": "19.8353287571353",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "Impeachment, Emmanuel Macron, Google: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/04/briefing/impeachment-emmanuel-macron-google.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "NATO Readies a 70th Birthday Party, With Low-Key Celebrations",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Atlantic Treaty Organization",
+          "United States International Relations",
+          "Defense and Military Forces",
+          "Trump, Donald J",
+          "Stoltenberg, Jens",
+          "Macron, Emmanuel (1977- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 37,
+    "keyphrase": "emmanuel",
+    "pageRank": "19.8353287571353",
+    "titles": [
+      [
+        "Live Updates: NATO Chief Vows Unity at Celebration, Despite Tensions",
+        "<a href=https://www.nytimes.com/2019/12/04/world/europe/nato-live-updates-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "United States International Relations",
+          "North Atlantic Treaty Organization",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Macron, Emmanuel (1977- )",
+          "Pompeo, Mike",
+          "London (England)"
+        ]
+      ],
+      [
+        "Impeachment, Emmanuel Macron, Google: Your Wednesday Briefing",
+        "<a href=https://www.nytimes.com/2019/12/04/briefing/impeachment-emmanuel-macron-google.html?emc=rss&partner=rss>link</a>",
+        []
+      ],
+      [
+        "NATO Readies a 70th Birthday Party, With Low-Key Celebrations",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/nato-70-trump-macron.html?emc=rss&partner=rss>link</a>",
+        [
+          "North Atlantic Treaty Organization",
+          "United States International Relations",
+          "Defense and Military Forces",
+          "Trump, Donald J",
+          "Stoltenberg, Jens",
+          "Macron, Emmanuel (1977- )"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 40,
+    "keyphrase": "year old",
+    "pageRank": "19.525337960863734",
+    "titles": [
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "Was This 18,000-Year-Old Siberian Puppy a Dog or a Wolf?",
+        "<a href=https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html?emc=rss&partner=rss>link</a>",
+        [
+          "Wolves",
+          "Dogs",
+          "Yakutsk (Russia)",
+          "Siberia",
+          "Paleontology",
+          "Genetics and Heredity"
+        ]
+      ],
+      [
+        "Irish Ex-Soldier Who Married ISIS Fighter Is Arrested",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/ireland-isis-bride-lisa-smith.html?emc=rss&partner=rss>link</a>",
+        [
+          "Terrorism",
+          "Ireland",
+          "Syria",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Politics and Government",
+          "Children and Childhood"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 41,
+    "keyphrase": "old",
+    "pageRank": "19.525337960863734",
+    "titles": [
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "Cha In-ha Becomes Third Young Korean Entertainer to Die in Two Months",
+        "<a href=https://www.nytimes.com/2019/12/03/world/asia/cha-in-ha-actor-death.html?emc=rss&partner=rss>link</a>",
+        [
+          "Deaths (Fatalities)",
+          "Cha In-ha",
+          "South Korea",
+          "Television",
+          "Pop and Rock Music"
+        ]
+      ],
+      [
+        "Was This 18,000-Year-Old Siberian Puppy a Dog or a Wolf?",
+        "<a href=https://www.nytimes.com/2019/12/02/science/frozen-puppy-found-russia.html?emc=rss&partner=rss>link</a>",
+        [
+          "Wolves",
+          "Dogs",
+          "Yakutsk (Russia)",
+          "Siberia",
+          "Paleontology",
+          "Genetics and Heredity"
+        ]
+      ],
+      [
+        "Irish Ex-Soldier Who Married ISIS Fighter Is Arrested",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/ireland-isis-bride-lisa-smith.html?emc=rss&partner=rss>link</a>",
+        [
+          "Terrorism",
+          "Ireland",
+          "Syria",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Politics and Government",
+          "Children and Childhood"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 42,
+    "keyphrase": "australian",
+    "pageRank": "19.42725468383077",
+    "titles": [
+      [
+        "Second Australian Rescued After Nearly 2 Weeks in Outback; Other Feared Dead",
+        "<a href=https://www.nytimes.com/2019/12/02/world/australia/outback-missing-rescue.html?emc=rss&partner=rss>link</a>",
+        [
+          "Rescues",
+          "Australia",
+          "Alice Springs (Australia)"
+        ]
+      ],
+      [
+        "\u2018Incredible Story of Survival\u2019: Woman Rescued After 12 Days in Outback",
+        "<a href=https://www.nytimes.com/2019/12/02/world/australia/outback-lost-survival.html?emc=rss&partner=rss>link</a>",
+        [
+          "Missing Persons",
+          "Rescues",
+          "Australia",
+          "Northern Territory (Australia)",
+          "McBeath-Riley, Tamra"
+        ]
+      ],
+      [
+        "China Is Aiming to \u2018Break\u2019 Detained Australian Writer, Lawyers Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/australia/yang-hengjun-isolation-china.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Political Prisoners",
+          "Espionage and Intelligence Services",
+          "Australia",
+          "Yang Hengjun",
+          "China"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 43,
+    "keyphrase": "past",
+    "pageRank": "19.25139071471299",
+    "titles": [
+      [
+        "Trump Warns Trade Talks With China May Last Past 2020 Election",
+        "<a href=https://www.nytimes.com/2019/12/03/business/economy/trump-china-trade.html?emc=rss&partner=rss>link</a>",
+        [
+          "International Trade and World Market",
+          "United States International Relations",
+          "Prices (Fares, Fees and Rates)",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "China",
+          "Customs (Tariff)"
+        ]
+      ],
+      [
+        "At Least 14 People Killed in Burkina Faso Church Attack",
+        "<a href=https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&partner=rss>link</a>",
+        [
+          "Murders, Attempted Murders and Homicides",
+          "Terrorism",
+          "Muslims and Islam",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Burkina Faso",
+          "West Africa"
+        ]
+      ],
+      [
+        "\u2018I Wanted to Die:\u2019 Northern Ireland Confronts a Suicide Crisis",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/northern-ireland-suicide.html?emc=rss&partner=rss>link</a>",
+        [
+          "Depression (Mental)",
+          "Mental Health and Disorders",
+          "Anxiety and Stress",
+          "Post-Traumatic Stress Disorder",
+          "Terrorism",
+          "Suicides and Suicide Attempts",
+          "Northern Ireland",
+          "Irish Republican Army",
+          "Derry (Northern Ireland)",
+          "Great Britain",
+          "Enniskillen (Northern Ireland)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 44,
+    "keyphrase": "foxes",
+    "pageRank": "18.831081734956264",
+    "titles": [
+      [
+        "Why Are These Foxes Tame? Maybe They Weren\u2019t So Wild to Begin With",
+        "<a href=https://www.nytimes.com/2019/12/03/science/foxes-tame-belyaev.html?emc=rss&partner=rss>link</a>",
+        [
+          "Animal Cognition",
+          "Foxes",
+          "Genetics and Heredity",
+          "Arizona State University",
+          "Broad Institute",
+          "Hampshire College",
+          "Humboldt University",
+          "Oxford University",
+          "University of Illinois",
+          "Novosibirsk (Russia)",
+          "Prince Edward Island (Canada)",
+          "Russia",
+          "USSR (Former Soviet Union)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 45,
+    "keyphrase": "violence",
+    "pageRank": "18.61562630720546",
+    "titles": [
+      [
+        "At Least 14 People Killed in Burkina Faso Church Attack",
+        "<a href=https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&partner=rss>link</a>",
+        [
+          "Murders, Attempted Murders and Homicides",
+          "Terrorism",
+          "Muslims and Islam",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Burkina Faso",
+          "West Africa"
+        ]
+      ],
+      [
+        "Suspects in Mormon Family\u2019s Killing Are Arrested in Mexico",
+        "<a href=https://www.nytimes.com/2019/12/01/world/americas/mexico-mormon-family.html?emc=rss&partner=rss>link</a>",
+        [
+          "Mormon Family Massacre (Mexico, 2019)",
+          "Drug Cartels",
+          "Murders, Attempted Murders and Homicides",
+          "Lopez Obrador, Andres Manuel",
+          "Mexico",
+          "Sonora (Mexico)",
+          "Trump, Donald J"
+        ]
+      ],
+      [
+        "As Troubles Grow, Mexicans Keep the Faith With Their President",
+        "<a href=https://www.nytimes.com/2019/12/01/world/americas/amlo-mexico-year-violence.html?emc=rss&partner=rss>link</a>",
+        [
+          "Lopez Obrador, Andres Manuel",
+          "Politics and Government",
+          "Economic Conditions and Trends",
+          "Labor and Jobs",
+          "Unemployment",
+          "Pemex",
+          "Mexico",
+          "Tabasco (Mexico)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 46,
+    "keyphrase": "attack",
+    "pageRank": "18.258888629608077",
+    "titles": [
+      [
+        "London Bridge Attack Victims Were Advocates for Prisoner Rehabilitation",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/london-bridge-attack-victims.html?emc=rss&partner=rss>link</a>",
+        [
+          "London (England)",
+          "Great Britain",
+          "Ex-Convicts",
+          "Terrorism",
+          "Murders, Attempted Murders and Homicides",
+          "Sentences (Criminal)",
+          "Probation and Parole",
+          "Jones, Saskia (d 2019)"
+        ]
+      ],
+      [
+        "At Least 14 People Killed in Burkina Faso Church Attack",
+        "<a href=https://www.nytimes.com/2019/12/01/world/africa/church-attack-burkina-faso.html?emc=rss&partner=rss>link</a>",
+        [
+          "Murders, Attempted Murders and Homicides",
+          "Terrorism",
+          "Muslims and Islam",
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Burkina Faso",
+          "West Africa"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 47,
+    "keyphrase": "afghan",
+    "pageRank": "17.1642675037332",
+    "titles": [
+      [
+        "ISIS Is Losing Afghan Territory. That Means Little for Its Victims.",
+        "<a href=https://www.nytimes.com/2019/12/02/world/asia/ISIS-afghanistan-baghdadi.html?emc=rss&partner=rss>link</a>",
+        [
+          "Islamic State in Iraq and Syria (ISIS)",
+          "Afghanistan War (2001- )",
+          "Terrorism",
+          "Civilian Casualties",
+          "Taliban",
+          "Baghdadi, Abu Bakr al-",
+          "Trump, Donald J",
+          "Afghanistan"
+        ]
+      ],
+      [
+        "U.S. Drone Killed Afghan Civilians, Officials Say",
+        "<a href=https://www.nytimes.com/2019/12/01/world/asia/drone-civilians-afghanistan.html?emc=rss&partner=rss>link</a>",
+        [
+          "Afghanistan",
+          "Drones (Pilotless Planes)",
+          "Civilian Casualties",
+          "Afghanistan War (2001- )",
+          "Afghan National Security Forces",
+          "Taliban"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 48,
+    "keyphrase": "minister",
+    "pageRank": "16.787676209286996",
+    "titles": [
+      [
+        "Ukraine Knew of Aid Freeze in July, Says Ex-Top Official in Kyiv",
+        "<a href=https://www.nytimes.com/2019/12/03/world/europe/ukraine-impeachment-military-aid.html?emc=rss&partner=rss>link</a>",
+        [
+          "Ukraine",
+          "Zelensky, Volodymyr",
+          "Olena Zerkal",
+          "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+          "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+          "United States International Relations",
+          "Presidential Election of 2020",
+          "Trump, Donald J",
+          "Biden, Joseph R Jr",
+          "Cooper, Laura K"
+        ]
+      ],
+      [
+        "Malta Leader Says He Will Resign, as Murder Inquiry Widens",
+        "<a href=https://www.nytimes.com/2019/12/01/world/europe/malta-prime-minister-resigns.html?emc=rss&partner=rss>link</a>",
+        [
+          "Politics and Government",
+          "Demonstrations, Protests and Riots",
+          "Assassinations and Attempted Assassinations",
+          "Muscat, Joseph (1974- )",
+          "Caruana Galizia, Daphne",
+          "Malta",
+          "Valletta (Malta)"
+        ]
+      ]
+    ],
+    "mention": ""
+  },
+  {
+    "index": 49,
+    "keyphrase": "case",
+    "pageRank": "16.744644573007307",
+    "titles": [
+      [
+        "Prince Andrew\u2019s Accuser Takes Her Case to the BBC",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/prince-andrews-Virginia-Roberts-Giuffre-bbc.html?emc=rss&partner=rss>link</a>",
+        [
+          "Giuffre, Virginia Roberts",
+          "Andrew, Duke of York",
+          "Royal Families",
+          "Sex Crimes",
+          "Prostitution",
+          "British Broadcasting Corp",
+          "Epstein, Jeffrey E (1953- )",
+          "Great Britain",
+          "Child Abuse and Neglect"
+        ]
+      ],
+      [
+        "Dead Whale, 220 Pounds of Debris Inside, Is a \u2018Grim Reminder\u2019 of Ocean Trash",
+        "<a href=https://www.nytimes.com/2019/12/02/world/europe/harris-beached-whale.html?emc=rss&partner=rss>link</a>",
+        [
+          "Whales and Whaling",
+          "Water Pollution",
+          "Scotland",
+          "Fish and Other Marine Life",
+          "Hebrides Islands (Great Britain)"
+        ]
+      ],
+      [
+        "Activist\u2019s Case Hints at What Changes and What Stays the Same in Cuba",
+        "<a href=https://www.nytimes.com/2019/12/02/world/americas/cuban-activist-ferrer-diaz-canel.html?emc=rss&partner=rss>link</a>",
+        [
+          "Diaz-Canel Bermudez, Miguel",
+          "Ferrer, Jose Daniel",
+          "Cuba",
+          "Political Prisoners",
+          "Human Rights and Human Rights Violations"
+        ]
+      ]
+    ],
+    "mention": ""
+  }
+]
+    
+    var margin = {top: 10, right: 10, bottom: 10, left: 10},
+        width = 1800 - margin.left - margin.right,
+        height = 350 - margin.top - margin.bottom;
+    
+    var svg = d3.select("#my_dataviz").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform",
+              "translate(" + margin.left + "," + margin.top + ")");
+    
+    var layout = d3.layout.cloud()
+      .size([width, height])
+      .words(myWords.map(function(d) { return {text: d.keyphrase, size:d.pageRank, titles: d.titles}; }))
+      .padding(5)        //space between words
+      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+      .fontSize(function(d) { return d.size; })      // font size of words
+      .on("end", draw);
+    layout.start();
+    
+    var previousColor;
+    function draw(words) {
+      svg
+        .append("g")
+          .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+          .selectAll("text")
+            .data(words)
+          .enter().append("text")
+            .style("font-size", function(d) { return d.size; })
+            .style("fill", "#69b3a2")
+            .attr("text-anchor", "middle")
+            .style("font-family", "Impact")
+            .attr("class","keyphrases")
+            .attr("transform", function(d) {
+              return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+            })
+            .on("click", function(d, i) {
+              d3.selectAll(".keyphrases").style("fill", "#69b3a2");
+              d3.select(this).style("fill", "grey");
+              previousColor="grey";
+              var html = "";
+              html += "<tr><th>News</th><th>HyperLink</th><th>Categories</th></tr>"
+              $.each(d.titles, function(rowNumber,rowData){
+	            html += "<tr>";
+                $.each(rowData, function(columnNumber,columnData){
+                  html += "<td>"+columnData+"</td>";
+                });
+              html += "</tr>";
+              });
+              $("#myTable").html(html);
+              document.getElementById("myTable").style.visibility = "visible";
+              })
+              .on("mouseover", function(d, i) {
+              previousColor=$(this).css("fill");
+              d3.select(this).style("fill", "grey");
+              })
+              .on("mouseout", function(d, i) {
+                d3.select(this).style("fill", previousColor);
+              })
+              .text(function(d) { return d.text; });
+    }
+    </script>
+
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 1800px;
+  margin:10px;
+}
+
+#my_dataviz {
+    cursor: pointer;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+a {
+  text-decoration: none;
+}
+
+#fixedDiv {
+  width: 1830px;
+  height: 400px;
+  overflow: auto;
+}
+</style>
+
+<script>
+
+  var table = d3.select("#fixedDiv").append("table");
+  table.attr('id','myTable')
+  table.style('visibility',"visible");
+  
+</script>

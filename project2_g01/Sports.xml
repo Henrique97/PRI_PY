@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Sports</title>
+    <link>https://www.nytimes.com/section/sports?emc=rss&amp;partner=rss</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/Sports.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2019 The New York Times Company</copyright>
+    <lastBuildDate>Fri, 06 Dec 2019 19:09:02 +0000</lastBuildDate>
+    <image>
+      <title>NYT &gt; Sports</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/sports?emc=rss&amp;partner=rss</link>
+    </image>
+    <item>
+      <title>Caroline Wozniacki, a Former Top-Ranked Tennis Player, to Retire</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/tennis/caroline-wozniacki-tennis-retires.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/tennis/caroline-wozniacki-tennis-retires.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/tennis/caroline-wozniacki-tennis-retires.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Though she had reached No. 1 as recently as 2018, her desire to start a family was among the reasons she cited in stepping away after the Australian Open next month.</description>
+      <dc:creator>Victor Mather</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 18:09:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tennis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wozniacki, Caroline</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Australian Open (Tennis)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Denmark</category>
+    </item>
+    <item>
+      <title>Are the Patriots Vulnerable at Last? Don’t Bet on It</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/football/patriots-chiefs.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/football/patriots-chiefs.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/football/patriots-chiefs.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>They have lost two of their last four games, and much of their 10-2 record was built against weak teams. But fears, and anticipation, of their decline seem misplaced.</description>
+      <dc:creator>Bill Pennington</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 13:31:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brady, Tom</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New England Patriots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Kansas City Chiefs</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/06/sports/06nfl-bradyWEB1/merlin_165426603_f52c064c-6180-4333-a961-d461c62dd2d9-moth.jpg" width="151"></media:content>
+      <media:credit>Steven Senne/Associated Press</media:credit>
+      <media:description>Tom Brady, No. 12, and the Patriots ran up an 8-0 start against some weak teams.</media:description>
+    </item>
+    <item>
+      <title>A Season on the Rez</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/chinle-basketball-navajo.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/chinle-basketball-navajo.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/chinle-basketball-navajo.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A writer followed a Navajo high school basketball team for a season. Here is a tale from one road trip.</description>
+      <dc:creator>Michael Powell</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 12:00:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Navajo Indians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coaches and Managers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Bureau of Indian Affairs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Arizona</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/11/29/sports/29powell-excerpt4/merlin_117955310_93e9ffe7-df80-4b3b-8c5b-f449bfb6b993-moth.jpg" width="151"></media:content>
+      <media:credit>Caitlin O&#39;Hara for The New York Times</media:credit>
+      <media:description>The Chinle team captain, Nachae Nez, center, helped prepare before a 2017 game in Holbrook, Ariz. Nez played for the Holbrook team his freshman year, when Raul Mendoza was the coach here.</media:description>
+    </item>
+    <item>
+      <title>N.F.L. Week 14 Predictions: Our Picks Against the Spread</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/football/nfl-picks-week-14.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/football/nfl-picks-week-14.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/football/nfl-picks-week-14.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Patrick Mahomes and the Chiefs look for revenge against the Patriots, the Saints host the 49ers, and the Ravens and Seahawks try to stay hot on what should be a chaotic Sunday.</description>
+      <dc:creator>Benjamin Hoffman</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 17:17:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New England Patriots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Kansas City Chiefs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mahomes, Patrick (1995- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">San Francisco 49ers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New Orleans Saints</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Baltimore Ravens</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Buffalo Bills</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Los Angeles Rams</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Seattle Seahawks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Minnesota Vikings</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/06/sports/06nflmatchups-chiefs/06nflmatchups-chiefs-moth.jpg" width="151"></media:content>
+      <media:credit>Denny Medley/USA Today Sports, via Reuters</media:credit>
+      <media:description>Patrick Mahomes of the Chiefs threw three touchdown passes against New England in last year’s A.F.C. championship game. But the Patriots won.</media:description>
+    </item>
+    <item>
+      <title>Draymond Green Is Growing. But Some Things Never Change.</title>
+      <link>https://www.nytimes.com/2019/12/05/sports/basketball/draymond-green-michigan-state.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/05/sports/basketball/draymond-green-michigan-state.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/05/sports/basketball/draymond-green-michigan-state.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Green, the Golden State Warriors star, granted behind-the-scenes access for a trip into his past to show just how far he has come as a person and a player — and where he still needs to go.</description>
+      <dc:creator>Scott Cacciola</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 00:22:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Golden State Warriors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Michigan State University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Green, Draymond</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Izzo, Tom</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Awards, Decorations and Honors</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/06/sports/05nba-draymond1-print/merlin_165440211_92358530-0436-4e4b-b9e1-0e8683684efc-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Kirkland for The New York Times</media:credit>
+      <media:description>Draymond Green has changed, though not entirely, since he first stepped foot on Michigan State&amp;rsquo;s campus more than a decade ago.</media:description>
+    </item>
+    <item>
+      <title>Real Madrid’s President Plots a Way for Richest Clubs to Get Richer</title>
+      <link>https://www.nytimes.com/2019/12/05/sports/real-madrid-fifa-european-super-league.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/05/sports/real-madrid-fifa-european-super-league.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/05/sports/real-madrid-fifa-european-super-league.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Real Madrid’s Florentino Pérez is shepherding a proposal that would reshape European soccer for the benefit of the Continent’s biggest clubs. UEFA’s president called the idea “insane.”</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 15:58:34 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">UEFA Champions League (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Real Madrid (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Perez, Florentino</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Infantino, Gianni</category>
+    </item>
+    <item>
+      <title>The Mets’ Would-Be Rescuer Is Far From a Hero</title>
+      <link>https://www.nytimes.com/2019/12/05/sports/baseball/mets-steven-cohen.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/05/sports/baseball/mets-steven-cohen.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/05/sports/baseball/mets-steven-cohen.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Steven Cohen’s bid for the team may thrill fans tired of the Wilpon era, but his billions come with baggage.</description>
+      <dc:creator>Michael Powell</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 06:49:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mergers, Acquisitions and Divestitures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Major League Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York Mets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wilpon, Fred</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">SAC Capital Advisors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cohen, Steven A</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/05/sports/05powell/05powell-moth.jpg" width="151"></media:content>
+      <media:credit>Lucy Nicholson/Reuters</media:credit>
+      <media:description>Steven A. Cohen is seeking controlling interest in the Mets and has proposed to let Fred and Jeff Wilpon remain in executive roles for five years.</media:description>
+    </item>
+    <item>
+      <title>Football Is Dying in Ohio. A Coach in This County Made It Thrive.</title>
+      <link>https://www.nytimes.com/2019/12/05/sports/football/ohio-high-school-marion-local.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/05/sports/football/ohio-high-school-marion-local.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/05/sports/football/ohio-high-school-marion-local.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Demographics suggest football should be dying in Mercer County. Instead it’s booming and producing state champions.</description>
+      <dc:creator>Joe Drape</dc:creator>
+      <pubDate>Thu, 05 Dec 2019 13:24:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interscholastic Athletics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ohio</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/05/sports/05football-ohio1/05football-ohio1-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Andrew Spear for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Did FIFA Accidentally Confirm a World Cup Bribery Scandal?</title>
+      <link>https://www.nytimes.com/2019/12/05/sports/fifa-teixeira-qatar-2022-bribes.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/05/sports/fifa-teixeira-qatar-2022-bribes.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/05/sports/fifa-teixeira-qatar-2022-bribes.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Qatar has for years been dogged by accusations that a corrupt vote delivered the 2022 World Cup. Now, world soccer’s governing body may have inadvertently supported those claims.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Thu, 05 Dec 2019 08:00:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2022 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Teixeira, Ricardo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Leoz, Nicolas (1928- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Grondona, Julio (1931-2014)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/04/sports/04fifatop/merlin_160146126_bd3007a7-298c-4628-a90b-375f575cbe66-moth.jpg" width="151"></media:content>
+      <media:credit>Christopher Pike/Getty Images for Supreme Committee 2022</media:credit>
+    </item>
+    <item>
+      <title>The Cowboys Look for Their Offense Against the Bears</title>
+      <link>https://www.nytimes.com/2019/12/05/sports/football/thursday-night-football-cowboys-bears.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/05/sports/football/thursday-night-football-cowboys-bears.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/05/sports/football/thursday-night-football-cowboys-bears.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Dallas is in a rut, and Chicago’s defense is hardly a pushover. Could an upset be brewing on Thursday night?</description>
+      <dc:creator>Benjamin Hoffman</dc:creator>
+      <pubDate>Thu, 05 Dec 2019 10:00:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Chicago Bears</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Dallas Cowboys</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Prescott, Dak (1993- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Elliott, Ezekiel (1995- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jones, Jerry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trubisky, Mitchell (1994- )</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/05/sports/05nflmatchup/05nflmatchup-moth.jpg" width="151"></media:content>
+      <media:credit>Charles Rex Arbogast/Associated Press</media:credit>
+      <media:description>Khalil Mack, Leonard Floyd and the Bears’ defense will be doing their best to make life difficult for Dak Prescott and the Cowboys on Thursday.</media:description>
+    </item>
+    <item>
+      <title>Steve Cohen in Talks to Buy Majority of Mets From Wilpons</title>
+      <link>https://www.nytimes.com/2019/12/04/sports/baseball/mets-steve-cohen.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/sports/baseball/mets-steve-cohen.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/sports/baseball/mets-steve-cohen.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The deal with Mr. Cohen, a billionaire hedge fund manager, would represent a significant change in the New York sports landscape.</description>
+      <dc:creator>Kevin Draper, Emily Flitter, Danielle Allentuck and Kate Kelly</dc:creator>
+      <pubDate>Thu, 05 Dec 2019 02:55:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York Mets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Point72 Asset Management LP</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wilpon, Fred</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cohen, Steven A</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wilpon, Jeff</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/04/sports/04mets-cohen/merlin_133729037_5e14ce59-a80c-4bdf-8f18-d035f9204a93-moth.jpg" width="151"></media:content>
+      <media:credit>Sasha Arutyunova for The New York Times</media:credit>
+      <media:description>Steven A. Cohen, a billionaire who made his fortune in the hedge fund business, was negotiating to purchase a controlling stake in the Mets.</media:description>
+    </item>
+    <item>
+      <title>Baseball Free Agency: Power Starts Shifting Back to Players</title>
+      <link>https://www.nytimes.com/2019/12/04/sports/baseball/zack-wheeler-cole-hamels.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/sports/baseball/zack-wheeler-cole-hamels.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/sports/baseball/zack-wheeler-cole-hamels.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Two big deals were reached on Wednesday, part of a pattern that suggested a substantial change from the quiet market of recent winters.</description>
+      <dc:creator>Tyler Kepner</dc:creator>
+      <pubDate>Thu, 05 Dec 2019 00:37:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Free Agents (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Atlanta Braves</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Philadelphia Phillies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hamels, Cole</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wheeler, Zack</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/04/sports/04kepner1/04kepner1-moth.jpg" width="151"></media:content>
+      <media:credit>Rich Schultz/Getty Images</media:credit>
+      <media:description>After an injury-filled seven years with the Mets, Zack Wheeler has agreed to a five-year, $118 million deal with the Phillies.</media:description>
+    </item>
+    <item>
+      <title>The Best N.F.L. Trade of the Season? Look to Pittsburgh</title>
+      <link>https://www.nytimes.com/2019/12/04/sports/football/minkah-fitzpatrick-trade-steelers.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/04/sports/football/minkah-fitzpatrick-trade-steelers.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/04/sports/football/minkah-fitzpatrick-trade-steelers.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>After forcing his way out of Miami, Minkah Fitzpatrick has powered the Steelers’ surprising surge into contention.</description>
+      <dc:creator>Ben Shpigel</dc:creator>
+      <pubDate>Wed, 04 Dec 2019 19:30:54 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Trades (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Miami Dolphins</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Pittsburgh Steelers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fitzpatrick, Minkah  (1996- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tomlin, Mike</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/04/sports/04minkah1/04minkah1-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Keith Srakocic/Associated Press</media:credit>
+      <media:description>Since acquiring Fitzpatrick in a mid-September trade, the Steelers have won seven of 10 games. The safety has eight of the team’s league-leading 28 takeaways, and two touchdowns, over that span.</media:description>
+    </item>
+    <item>
+      <title>Everton and the Burden of History</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/soccer/everton-rory-smith.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/soccer/everton-rory-smith.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/soccer/everton-rory-smith.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Premier League club is in crisis again. But it is more serious than just one manager’s failings: It is part of a fundamental reordering of the soccer world.</description>
+      <dc:creator>Rory Smith</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 17:30:07 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Everton (Soccer Team)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/06/sports/06rorynewsletter-everton/merlin_164903856_987e1b67-17d3-4cde-af9b-14947c9f5083-moth.jpg" width="151"></media:content>
+      <media:credit>Lindsey Parnaby/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Everton is 18th in the Premier League.</media:description>
+    </item>
+    <item>
+      <title>‘Black Friday’ Headline Is Condemned by Stars of Italian Soccer</title>
+      <link>https://www.nytimes.com/2019/12/06/world/europe/black-friday-italy-soccer.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/world/europe/black-friday-italy-soccer.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/world/europe/black-friday-italy-soccer.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A headline alongside photos of two black players in the Corriere dello Sport brought new condemnations of racism in Italy. The newspaper said it had suffered a “lynching.”</description>
+      <dc:creator>Elisabetta Povoledo</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 18:24:43 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lukaku, Romelu (1993- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Serie A (Italian Soccer League)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Inter Milan (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Balotelli, Mario</category>
+    </item>
+    <item>
+      <title>Pirelli Is Working to Give F1 New Tires for 2021</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/autoracing/pirelli-formula-one-new-tires.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/autoracing/pirelli-formula-one-new-tires.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/autoracing/pirelli-formula-one-new-tires.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>They are jumping from 13 inches to 18 inches, and testing their effect on racing has already begun.</description>
+      <dc:creator>Luke Smith</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 10:00:25 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobile Racing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Formula One</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Pirelli Spa</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tires</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/07/multimedia/07SP-PIRELLI-INYT/07SP-PIRELLI-INYT-moth.jpg" width="151"></media:content>
+      <media:credit>Valdrin Xhemaj/Agence France-Presse &amp;mdash; Getty Images</media:credit>
+      <media:description>Ferrari&amp;rsquo;s F1 mechanics with Pirelli tires at the Belgian Grand Prix. Teams can choose from soft, medium and hard compounds.</media:description>
+    </item>
+    <item>
+      <title>Mercedes Dominated Formula One, but Not in the Second Half</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/autoracing/mercedes-championship-formula-one.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/autoracing/mercedes-championship-formula-one.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/autoracing/mercedes-championship-formula-one.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The team was a winning machine at first, but then tailed off, giving its rivals hope for 2020.</description>
+      <dc:creator>Ian Parkes</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 10:00:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobile Racing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ferrari SpA</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Formula One</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Mercedes GP Petronas Formula One Team</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Red Bull Racing Ltd</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/07/multimedia/07SP-REVIEW-INYT-1/07SP-REVIEW-INYT-1-moth.jpg" width="151"></media:content>
+      <media:credit>Andrej Isakovic/Agence France-Presse &amp;mdash; Getty Images</media:credit>
+      <media:description>Lewis Hamilton won the Abu Dhabi Grand Prix for Mercedes, which took 15 of the season’s 21 races.</media:description>
+    </item>
+    <item>
+      <title>Chase Carey Pulls Formula One Out of the Past</title>
+      <link>https://www.nytimes.com/2019/12/06/sports/autoracing/chase-carey-formula-one.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/sports/autoracing/chase-carey-formula-one.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/sports/autoracing/chase-carey-formula-one.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The chief executive is presenting the motorsport to an audience savvy about social media.</description>
+      <dc:creator>Ian Parkes</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 10:00:17 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobile Racing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Formula One</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Liberty Media Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Carey, Chase</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/07/multimedia/07SP-CAREY-INYT/07SP-CAREY-INYT-moth.jpg" width="151"></media:content>
+      <media:credit>Dan Mullan/Getty Images</media:credit>
+      <media:description>Chase Carey, the chief executive of the Formula One Group, with fans before the Grand Prix of Hungary in August. &amp;ldquo;I&amp;rsquo;m really focused on trying to do what we can to make this sport everything it can and should be,&amp;rdquo; he said.</media:description>
+    </item>
+    <item>
+      <title>The Personal Toll of Photographing a Story About Euthanasia</title>
+      <link>https://www.nytimes.com/2019/12/06/reader-center/marieke-vervoort-euthanasia.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/06/reader-center/marieke-vervoort-euthanasia.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/06/reader-center/marieke-vervoort-euthanasia.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>I spent nearly three years photographing the Paralympic athlete Marieke Vervoort as she prepared to die by choice. It became one of the most emotional assignments — and friendships — of my life.</description>
+      <dc:creator>Lynsey Addario</dc:creator>
+      <pubDate>Fri, 06 Dec 2019 13:38:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Vervoort, Marieke</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Euthanasia and Assisted Suicide</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/06/sports/06insider-euthanasia-05/06insider-euthanasia-05-moth.jpg" width="151"></media:content>
+      <media:credit>Lynsey Addario for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Lawsuit Against Luke Walton Is Dropped</title>
+      <link>https://www.nytimes.com/2019/12/05/sports/luke-walton-kelli-tennant-lawsuit.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/12/05/sports/luke-walton-kelli-tennant-lawsuit.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/12/05/sports/luke-walton-kelli-tennant-lawsuit.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Sacramento Kings coach had been accused of sexual assault.</description>
+      <dc:creator>Victor Mather</dc:creator>
+      <pubDate>Thu, 05 Dec 2019 21:24:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Sacramento Kings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Walton, Luke</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tennant, Kelli</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/12/05/sports/05waltonWEB1/05waltonWEB1-moth.jpg" width="151"></media:content>
+      <media:credit>Winslow Townson/Associated Press</media:credit>
+      <media:description>A lawsuit accusing Luke Walton of sexual assault was dropped.</media:description>
+    </item>
+  </channel>
+</rss>
